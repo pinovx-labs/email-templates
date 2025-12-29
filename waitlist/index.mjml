@@ -28,7 +28,7 @@
     <mj-section padding="0">
       <mj-column width="100%" padding="0"
         ><mj-image
-          src="https://res.cloudinary.com/danxk4ua5/image/upload/v1761837338/Banner_image_z99ggd.png"
+          src="https://res.cloudinary.com/danxk4ua5/image/upload/v1761858920/Banner_image_1_nhvzan.png"
           alt="hero-image"
           width="600px"
           padding="0"
@@ -57,178 +57,98 @@
 
         <mj-text
           padding="20px 0"
-          font-weight="400"
+          font-family="inter"
+          font-weight="500"
           line-height="24px"
           letter-spacing="0"
           font-size="14px"
           color="#333333"
-          >Here is your One Time Password (OTP). <br />
-          Please enter this code to verify your email address for
-          PinovX</mj-text
+          align="justify"
         >
+          Congratulations, {{name}}! <br/> You’ve secured a spot on the exclusive Waitlist for
+          PinovX. <br />
+          We started this journey with a single realization: the current
+          financial system is intentionally over-complicated. Between the hidden
+          fees of traditional banks and the technical jargon of old-school
+          crypto exchanges, the "middleman" always finds a way to stand between
+          you and your money.
+        </mj-text>
+        <mj-text
+          padding="10px 0"
+          font-family="inter"
+          font-weight="500"
+          line-height="24px"
+          letter-spacing="0"
+          font-size="14px"
+          color="#333333"
+          align="justify"
+        >
+          <span style="font-weight: 700"> We’re here to change that.</span>
+          <br />
+          By joining this waitlist, you’ve signaled that you’re ready for a
+          simpler way to buy, sell, and move digital assets. No more 10-step
+          verification loops, no more waiting days for transfers to clear, and
+          no more paying "convenience fees" to people who aren't actually making
+          your life more convenient.
+        </mj-text>
+        <mj-text
+          padding="10px 0"
+          font-family="inter"
+          font-weight="500"
+          line-height="24px"
+          letter-spacing="0"
+          font-size="14px"
+          color="#333333"
+          align="justify"
+        >
+          <span style="font-weight: 700"> What happens next?</span> <br />
+          We are rolling out access in stages to ensure that our "seamless"
+          promise holds true for every single user. Here is what you can expect
+          as a waitlist member: <br />
+          <ul>
+            <li>
+              Priority Access: You’ll be among the very first to download the
+              app and create your account before the general public.
+            </li>
+
+            <li>
+              Exclusive Sneak Peeks: We’ll send you occasional updates showing
+              off our simplified interface and new features—no spam, just
+              progress.
+            </li>
+
+            <li>
+              Early-Bird Perks: As a "thank you" for being an early supporter,
+              keep an eye out for special reduced-fee tiers or rewards available
+              only to our waitlist community.
+            </li>
+          </ul></mj-text
+        >
+
+        <mj-text
+          padding="10px 0"
+          font-family="inter"
+          font-weight="500"
+          line-height="24px"
+          letter-spacing="0"
+          font-size="14px"
+          color="#333333"
+          align="justify"
+        >
+          <span style="font-weight: 700">
+            Help us move faster (and move up the line).</span
+          >
+          <br />
+
+          We are building PinovX for people who value their time and their
+          financial freedom. If you know someone who is tired of complicated
+          banking and expensive crypto hurdles, share the goodnews with them.
+          PinovX is coming!
+        </mj-text>
       </mj-column>
     </mj-section>
     <!-- End greeting/intro section -->
 
-    <!-- start otp section -->
-    <mj-section padding="20px 0" background-color="#ffffff">
-      <mj-column>
-        <mj-table align="center" cellpadding="0" cellspacing="0">
-          <tr>
-            <!-- OTP 3 -->
-            <td
-              valign="middle"
-              align="center"
-              style="
-                width: 56px;
-                height: 55px;
-                background-color: #892cdc0d;
-                border-radius: 5px;
-                font-size: 24px;
-                font-weight: 600;
-                font-family: 'Inter', Arial, sans-serif;
-                text-align: center;
-                vertical-align: middle;
-                line-height: 55px;
-              "
-            >
-              3
-            </td>
-
-            <td width="5px"></td>
-
-            <!-- OTP 9 -->
-            <td
-              valign="middle"
-              align="center"
-              style="
-                width: 56px;
-                height: 55px;
-                background-color: #892cdc0d;
-                border-radius: 5px;
-                font-size: 24px;
-                font-weight: 600;
-                font-family: 'Inter', Arial, sans-serif;
-                text-align: center;
-                vertical-align: middle;
-                line-height: 55px;
-              "
-            >
-              9
-            </td>
-
-            <td width="5px"></td>
-
-            <!-- OTP 7 -->
-            <td
-              valign="middle"
-              align="center"
-              style="
-                width: 56px;
-                height: 55px;
-                background-color: #892cdc0d;
-                border-radius: 5px;
-                font-size: 24px;
-                font-weight: 600;
-                font-family: 'Inter', Arial, sans-serif;
-                text-align: center;
-                vertical-align: middle;
-                line-height: 55px;
-              "
-            >
-              7
-            </td>
-
-            <td width="5px"></td>
-
-            <!-- OTP 1 -->
-            <td
-              valign="middle"
-              align="center"
-              style="
-                width: 56px;
-                height: 55px;
-                background-color: #892cdc0d;
-                border-radius: 5px;
-                font-size: 24px;
-                font-weight: 600;
-                font-family: 'Inter', Arial, sans-serif;
-                text-align: center;
-                vertical-align: middle;
-                line-height: 55px;
-              "
-            >
-              1
-            </td>
-
-            <td width="5px"></td>
-
-            <!-- OTP 4 -->
-            <td
-              valign="middle"
-              align="center"
-              style="
-                width: 56px;
-                height: 55px;
-                background-color: #892cdc0d;
-                border-radius: 5px;
-                font-size: 24px;
-                font-weight: 600;
-                font-family: 'Inter', Arial, sans-serif;
-                text-align: center;
-                vertical-align: middle;
-                line-height: 55px;
-              "
-            >
-              4
-            </td>
-
-            <td width="5px"></td>
-
-            <!-- OTP 6 -->
-            <td
-              valign="middle"
-              align="center"
-              style="
-                width: 56px;
-                height: 55px;
-                background-color: #892cdc0d;
-                border-radius: 5px;
-                font-size: 24px;
-                font-weight: 600;
-                font-family: 'Inter', Arial, sans-serif;
-                text-align: center;
-                vertical-align: middle;
-                line-height: 55px;
-              "
-            >
-              6
-            </td>
-          </tr>
-        </mj-table>
-      </mj-column>
-    </mj-section>
-
-    <!-- start otp section -->
-
-    <!-- start message section -->
-    <mj-section>
-      <mj-column>
-        <mj-text
-          padding="20px 0 0 0"
-          font-weight="400"
-          line-height="24px"
-          letter-spacing="0"
-          font-size="14px"
-          color="#333333"
-          >This OTP will expire in
-          <span style="font-weight: bold">{{2}} minutes.</span>
-          <br />
-          If you didn't create an account, please ignore this email.</mj-text
-        >
-      </mj-column>
-    </mj-section>
-    <!-- end message section -->
 
     <!-- start salutation section -->
 
@@ -241,7 +161,7 @@
           letter-spacing="0"
           font-size="14px"
           color="#333333"
-          >Best Regards,<br />
+          >See you soon,<br />
 
           <span
             style="
@@ -250,9 +170,9 @@
               font-size: 14px;
               line-height: 22px;
               letter-spacing: 0%;
-              color: #14ae5c;
+              color: #14AE5C;
             "
-            >PinovX Team.</span
+            >PinovX</span
           >
         </mj-text>
       </mj-column>
@@ -325,7 +245,7 @@
           align="center"
           padding="2px 30px 0"
         >
-          © <span>2025</span> PinovX. All rights reserved.
+      © {{year}} PinovX. All rights reserved.
         </mj-text>
       </mj-column>
     </mj-section>
@@ -338,10 +258,7 @@
           color="#000000"
           align="center"
           padding="30px 30px 0"
-        >
-          You are receiving this mail because you are registering to join the
-          PinovX platform as a user. This also shows that you agree to our Terms
-          of use and Privacy Policies.
+        >You are receiving this mail because you are registering to join the PinovX platform as a user.                   
         </mj-text>
       </mj-column>
     </mj-section>
@@ -376,26 +293,11 @@
               line-height: 20px;
               display: inline-block;
             "
-            >Terms of Service</a
+            >Contact Us</a
           >
         </mj-text>
       </mj-column>
 
-      <mj-column width="130px">
-        <mj-text font-size="10px" color="#000000" align="center" padding="0">
-          <a
-            href="#"
-            style="
-              text-decoration: underline;
-              color: #333333;
-              font-size: 10px;
-              line-height: 20px;
-              display: inline-block;
-            "
-            >Help Center</a
-          >
-        </mj-text>
-      </mj-column>
     </mj-section>
     <!-- end policy and terms section -->
   </mj-body>

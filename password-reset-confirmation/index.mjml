@@ -1,0 +1,290 @@
+<mjml>
+  <mj-head>
+    <!-- Import fonts, external files here -->
+    <mj-title>Password Reset OTP</mj-title>
+    <mj-preview>Password Reset OTP</mj-preview>
+
+    <!-- Define device breakpoint here -->
+    <mj-breakpoint width="400px" />
+    <mj-font
+      name="Inter"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700;900&display=swap"
+    />
+
+    <mj-style inline="inline">
+      body { font-family: 'Inter', sans-serif; } .full-width-image { width: 100%
+      !important; max-width: 100% !important; } .social-inline { display:
+      inline-block !important; vertical-align: middle !important; width: auto
+      !important; padding: 0 5px !important; } .social-icons-center {
+      text-align: center !important; margin: 0 auto !important; }
+      .social-icons-center table { margin: 0 auto !important; } /* Add this for
+      floating image */ .floating-image { position: relative !important; }
+      .floating-image table { position: absolute !important; bottom: 10px
+      !important; right: 20px !important; }.social-icons{ display:flex
+      !important;gap:2px !important }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="white">
+    <!-- body-logo-hero-section -->
+
+    <mj-section padding="0">
+      <mj-column width="100%" padding="0"
+        ><mj-image
+          src="https://res.cloudinary.com/danxk4ua5/image/upload/v1761858920/Banner_image_1_nhvzan.png"
+          alt="hero-image"
+          width="600px"
+          padding="0"
+          fluid-on-mobile="true"
+          css-class="full-width-image"
+      /></mj-column>
+    </mj-section>
+    <!-- body-logo-hero-section -->
+
+    <!-- start greeting/intro section -->
+    <mj-section>
+      <mj-column>
+        <mj-text
+          font-family="Inter, Arial, sans-serif"
+          font-size="24px"
+          font-weight="bold"
+          line-height="32px"
+          letter-spacing="0"
+          color="#333333"
+          padding="0"
+          font-style="medium"
+        >
+          Your password has been changed.
+        </mj-text>
+
+        <mj-text
+          padding="20px 0"
+          font-weight="400"
+          line-height="24px"
+          letter-spacing="0"
+          font-size="14px"
+          color="#333333"
+        >
+          Hello <span>{{John}},</span><br />
+          <br />
+          This is a confirmation that your password has been recently
+          changed.<br />
+          <br />You can <span style="color: #19ae14">log in</span> with your new
+          password. <br />
+          <br />
+          If you did not change your password recently, please
+          <a
+            href="mailto:projects@pinovx.com"
+            style="
+              text-decoration: underline;
+              color: #19ae14;
+              font-size: 14px;
+              line-height: 20px;
+              display: inline-block;
+            "
+            >contact our support team
+          </a>
+          and they’ll be happy to help you out.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Floating image with CSS class -->
+    <mj-section padding="0" css-class="floating-image">
+      <mj-column>
+        <mj-raw>
+          <table
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            style="margin: 0; padding: 0"
+          >
+            <tr>
+              <td align="right">
+                <img
+                  src="https://res.cloudinary.com/danxk4ua5/image/upload/v1761858912/pngtree-password-reset-illustration-vector-png-image_11523468_1_rferiz.png"
+                  width="198px"
+                  height="198px"
+                  style="display: block"
+                  alt="Decoration"
+                />
+              </td>
+            </tr>
+          </table>
+        </mj-raw>
+      </mj-column>
+    </mj-section>
+    <!-- End greeting/intro section -->
+
+    <!-- start salutation section -->
+
+    <mj-section padding="0">
+      <mj-column>
+        <mj-text
+          padding="0"
+          font-weight="400"
+          line-height="22px"
+          letter-spacing="0"
+          font-size="14px"
+          color="#333333"
+          >Thank You,<br />
+
+          <span
+            style="
+              font-family: Inter, Arial, sans-serif;
+
+              font-weight: 500;
+              font-size: 14px;
+              line-height: 22px;
+              letter-spacing: 0%;
+              color: #14ae5c;
+            "
+            >PinovX Team.</span
+          >
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- end salutation section -->
+
+    <mj-section padding="30px 0 0 0">
+      <mj-column padding="20px" width="100%">
+        <mj-divider
+          border-width="1px"
+          border-color="#D9D9D9"
+          padding="0"
+          width="100%"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- start social media icon -->
+
+    <mj-section padding="0">
+      <!-- Social media icons -->
+      <mj-column width="100px">
+        <mj-social
+          font-size="31px"
+          icon-size="31px"
+          mode="horizontal"
+          css-class="social-icons"
+        >
+          <mj-social-element
+            name="instagram"
+            href="https://pinovx.com"
+            border-radius="15.5px"
+            background-color="#14ae5c"
+          />
+          <mj-social-element
+            name="facebook"
+            href="https://pinovx.com"
+            border-radius="15.5px"
+            background-color="#14ae5c"
+          />
+          <mj-social-element
+            src="https://res.cloudinary.com/danxk4ua5/image/upload/v1761837336/Vector_zamib0.png"
+            href="https://pinovx.com"
+            border-radius="15.5px"
+            background-color="#14ae5c"
+          />
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <!-- end social media icon -->
+
+    <mj-section padding="20px 0 0 0 ">
+      <mj-column padding="0" width="100%">
+        <mj-divider
+          border-width="1px"
+          border-color="#D9D9D9"
+          padding="0"
+          width="100%"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- Start subscribe/disclaimer section -->
+    <mj-section padding="10px 0 0 0 ">
+      <mj-column width="100%">
+        <mj-text
+          font-size="10px"
+          color="#000000"
+          align="center"
+          padding="2px 30px 0"
+        >
+          © <span>2025</span> PinovX. All rights reserved.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- end subscribe/disclaimer section -->
+    <mj-section padding="0">
+      <mj-column width="100%">
+        <mj-text
+          font-size="10px"
+          color="#000000"
+          align="center"
+          padding="30px 30px 0"
+        >
+          You are receiving this mail because you are registering to join the
+          PinovX platform as a user. This also shows that you agree to our Terms
+          of use and Privacy Policies.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- start of policy and terms section -->
+
+    <mj-section padding="30px 0 0 0" text-align="center">
+      <mj-column width="130px">
+        <mj-text font-size="10px" color="#000000" align="center" padding="0">
+          <a
+            href="#"
+            style="
+              text-decoration: underline;
+              color: #333333;
+              font-size: 10px;
+              line-height: 20px;
+              display: inline-block;
+            "
+            >Privacy Policy</a
+          >
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="130px">
+        <mj-text font-size="10px" color="#000000" align="center" padding="0">
+          <a
+            href="#"
+            style="
+              text-decoration: underline;
+              color: #333333;
+              font-size: 10px;
+              line-height: 20px;
+              display: inline-block;
+            "
+            >Terms of Service</a
+          >
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="130px">
+        <mj-text font-size="10px" color="#000000" align="center" padding="0">
+          <a
+            href="#"
+            style="
+              text-decoration: underline;
+              color: #333333;
+              font-size: 10px;
+              line-height: 20px;
+              display: inline-block;
+            "
+            >Help Center</a
+          >
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- end policy and terms section -->
+  </mj-body>
+</mjml>

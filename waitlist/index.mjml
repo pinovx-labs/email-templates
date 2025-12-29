@@ -1,8 +1,8 @@
 <mjml>
   <mj-head>
     <!-- Import fonts, external files here -->
-    <mj-title>Sign-up Email Verification</mj-title>
-    <mj-preview>Sign-up Email Verification</mj-preview>
+    <mj-title>Waitlist Mail</mj-title>
+    <mj-preview>Waitlist Mail</mj-preview>
 
     <!-- Define device breakpoint here -->
     <mj-breakpoint width="400px" />

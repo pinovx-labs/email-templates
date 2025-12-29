@@ -64,14 +64,7 @@
           font-size="14px"
           color="#333333"
           align="justify"
-        >
-          Congratulations, {{name}}! <br/> You’ve secured a spot on the exclusive Waitlist for
-          PinovX. <br />
-          We started this journey with a single realization: the current
-          financial system is intentionally over-complicated. Between the hidden
-          fees of traditional banks and the technical jargon of old-school
-          crypto exchanges, the "middleman" always finds a way to stand between
-          you and your money.
+        >Congratulations! You’ve secured a spot on the exclusive Waitlist for PinovX. <br/><br/> We started this journey with a single realization: the current financial system is intentionally over-complicated. Between the hidden fees of traditional banks and the technical jargon of old-school crypto exchanges, the "middleman" always finds a way to stand between you and your money.
         </mj-text>
         <mj-text
           padding="10px 0"

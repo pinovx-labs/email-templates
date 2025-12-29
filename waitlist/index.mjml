@@ -1,0 +1,402 @@
+<mjml>
+  <mj-head>
+    <!-- Import fonts, external files here -->
+    <mj-title>Sign-up Email Verification</mj-title>
+    <mj-preview>Sign-up Email Verification</mj-preview>
+
+    <!-- Define device breakpoint here -->
+    <mj-breakpoint width="400px" />
+    <mj-font
+      name="Inter"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700;900&display=swap"
+    />
+
+    <mj-style inline="inline">
+      body { font-family: 'Inter', sans-serif; } .full-width-image { width: 100%
+      !important; max-width: 100% !important; } .social-inline { display:
+      inline-block !important; vertical-align: middle !important; width: auto
+      !important; padding: 0 5px !important; } .social-icons-center {
+      text-align: center !important; margin: 0 auto !important; }
+      .social-icons-center table { margin: 0 auto !important; }.social-icons{
+      display:flex !important;gap:2px !important }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="white">
+    <!-- body-logo-hero-section -->
+
+    <mj-section padding="0">
+      <mj-column width="100%" padding="0"
+        ><mj-image
+          src="https://res.cloudinary.com/danxk4ua5/image/upload/v1761837338/Banner_image_z99ggd.png"
+          alt="hero-image"
+          width="600px"
+          padding="0"
+          fluid-on-mobile="true"
+          css-class="full-width-image"
+      /></mj-column>
+    </mj-section>
+    <!-- body-logo-hero-section -->
+
+    <!-- start greeting/intro section -->
+    <mj-section>
+      <mj-column>
+        <mj-text
+          font-family="Inter, Arial, sans-serif"
+          font-size="36px"
+          font-weight="bold"
+          line-height="32px"
+          letter-spacing="0"
+          color="#34C759"
+          padding-top="30px"
+          font-style="medium"
+          align="center"
+        >
+          You’re on the Waitlist! 🎉
+        </mj-text>
+
+        <mj-text
+          padding="20px 0"
+          font-weight="400"
+          line-height="24px"
+          letter-spacing="0"
+          font-size="14px"
+          color="#333333"
+          >Here is your One Time Password (OTP). <br />
+          Please enter this code to verify your email address for
+          PinovX</mj-text
+        >
+      </mj-column>
+    </mj-section>
+    <!-- End greeting/intro section -->
+
+    <!-- start otp section -->
+    <mj-section padding="20px 0" background-color="#ffffff">
+      <mj-column>
+        <mj-table align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <!-- OTP 3 -->
+            <td
+              valign="middle"
+              align="center"
+              style="
+                width: 56px;
+                height: 55px;
+                background-color: #892cdc0d;
+                border-radius: 5px;
+                font-size: 24px;
+                font-weight: 600;
+                font-family: 'Inter', Arial, sans-serif;
+                text-align: center;
+                vertical-align: middle;
+                line-height: 55px;
+              "
+            >
+              3
+            </td>
+
+            <td width="5px"></td>
+
+            <!-- OTP 9 -->
+            <td
+              valign="middle"
+              align="center"
+              style="
+                width: 56px;
+                height: 55px;
+                background-color: #892cdc0d;
+                border-radius: 5px;
+                font-size: 24px;
+                font-weight: 600;
+                font-family: 'Inter', Arial, sans-serif;
+                text-align: center;
+                vertical-align: middle;
+                line-height: 55px;
+              "
+            >
+              9
+            </td>
+
+            <td width="5px"></td>
+
+            <!-- OTP 7 -->
+            <td
+              valign="middle"
+              align="center"
+              style="
+                width: 56px;
+                height: 55px;
+                background-color: #892cdc0d;
+                border-radius: 5px;
+                font-size: 24px;
+                font-weight: 600;
+                font-family: 'Inter', Arial, sans-serif;
+                text-align: center;
+                vertical-align: middle;
+                line-height: 55px;
+              "
+            >
+              7
+            </td>
+
+            <td width="5px"></td>
+
+            <!-- OTP 1 -->
+            <td
+              valign="middle"
+              align="center"
+              style="
+                width: 56px;
+                height: 55px;
+                background-color: #892cdc0d;
+                border-radius: 5px;
+                font-size: 24px;
+                font-weight: 600;
+                font-family: 'Inter', Arial, sans-serif;
+                text-align: center;
+                vertical-align: middle;
+                line-height: 55px;
+              "
+            >
+              1
+            </td>
+
+            <td width="5px"></td>
+
+            <!-- OTP 4 -->
+            <td
+              valign="middle"
+              align="center"
+              style="
+                width: 56px;
+                height: 55px;
+                background-color: #892cdc0d;
+                border-radius: 5px;
+                font-size: 24px;
+                font-weight: 600;
+                font-family: 'Inter', Arial, sans-serif;
+                text-align: center;
+                vertical-align: middle;
+                line-height: 55px;
+              "
+            >
+              4
+            </td>
+
+            <td width="5px"></td>
+
+            <!-- OTP 6 -->
+            <td
+              valign="middle"
+              align="center"
+              style="
+                width: 56px;
+                height: 55px;
+                background-color: #892cdc0d;
+                border-radius: 5px;
+                font-size: 24px;
+                font-weight: 600;
+                font-family: 'Inter', Arial, sans-serif;
+                text-align: center;
+                vertical-align: middle;
+                line-height: 55px;
+              "
+            >
+              6
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <!-- start otp section -->
+
+    <!-- start message section -->
+    <mj-section>
+      <mj-column>
+        <mj-text
+          padding="20px 0 0 0"
+          font-weight="400"
+          line-height="24px"
+          letter-spacing="0"
+          font-size="14px"
+          color="#333333"
+          >This OTP will expire in
+          <span style="font-weight: bold">{{2}} minutes.</span>
+          <br />
+          If you didn't create an account, please ignore this email.</mj-text
+        >
+      </mj-column>
+    </mj-section>
+    <!-- end message section -->
+
+    <!-- start salutation section -->
+
+    <mj-section padding="0">
+      <mj-column>
+        <mj-text
+          padding="0"
+          font-weight="400"
+          line-height="22px"
+          letter-spacing="0"
+          font-size="14px"
+          color="#333333"
+          >Best Regards,<br />
+
+          <span
+            style="
+              font-family: Inter, Arial, sans-serif;
+              font-weight: 500;
+              font-size: 14px;
+              line-height: 22px;
+              letter-spacing: 0%;
+              color: #14ae5c;
+            "
+            >PinovX Team.</span
+          >
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- end salutation section -->
+
+    <mj-section padding="30px 0 0 0">
+      <mj-column padding="20px" width="100%">
+        <mj-divider
+          border-width="1px"
+          border-color="#D9D9D9"
+          padding="0"
+          width="100%"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- start social media icon -->
+
+    <mj-section padding="0">
+      <!-- Social media icons -->
+      <mj-column width="100px">
+        <mj-social
+          font-size="31px"
+          icon-size="31px"
+          mode="horizontal"
+          css-class="social-icons"
+        >
+          <mj-social-element
+            name="instagram"
+            href="https://pinovx.com"
+            border-radius="15.5px"
+            background-color="#14ae5c"
+          />
+          <mj-social-element
+            name="facebook"
+            href="https://pinovx.com"
+            border-radius="15.5px"
+            background-color="#14ae5c"
+          />
+          <mj-social-element
+            src="https://res.cloudinary.com/danxk4ua5/image/upload/v1761837336/Vector_zamib0.png"
+            href="https://pinovx.com"
+            border-radius="15.5px"
+            background-color="#14ae5c"
+          />
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <!-- end social media icon -->
+
+    <mj-section padding="20px 0 0 0 ">
+      <mj-column padding="0" width="100%">
+        <mj-divider
+          border-width="1px"
+          border-color="#D9D9D9"
+          padding="0"
+          width="100%"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- Start subscribe/disclaimer section -->
+    <mj-section padding="10px 0 0 0 ">
+      <mj-column width="100%">
+        <mj-text
+          font-size="10px"
+          color="#000000"
+          align="center"
+          padding="2px 30px 0"
+        >
+          © <span>2025</span> PinovX. All rights reserved.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- end subscribe/disclaimer section -->
+    <mj-section padding="0">
+      <mj-column width="100%">
+        <mj-text
+          font-size="10px"
+          color="#000000"
+          align="center"
+          padding="30px 30px 0"
+        >
+          You are receiving this mail because you are registering to join the
+          PinovX platform as a user. This also shows that you agree to our Terms
+          of use and Privacy Policies.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- start of policy and terms section -->
+
+    <mj-section padding="30px 0 0 0" text-align="center">
+      <mj-column width="130px">
+        <mj-text font-size="10px" color="#000000" align="center" padding="0">
+          <a
+            href="#"
+            style="
+              text-decoration: underline;
+              color: #333333;
+              font-size: 10px;
+              line-height: 20px;
+              display: inline-block;
+            "
+            >Privacy Policy</a
+          >
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="130px">
+        <mj-text font-size="10px" color="#000000" align="center" padding="0">
+          <a
+            href="#"
+            style="
+              text-decoration: underline;
+              color: #333333;
+              font-size: 10px;
+              line-height: 20px;
+              display: inline-block;
+            "
+            >Terms of Service</a
+          >
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="130px">
+        <mj-text font-size="10px" color="#000000" align="center" padding="0">
+          <a
+            href="#"
+            style="
+              text-decoration: underline;
+              color: #333333;
+              font-size: 10px;
+              line-height: 20px;
+              display: inline-block;
+            "
+            >Help Center</a
+          >
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- end policy and terms section -->
+  </mj-body>
+</mjml>

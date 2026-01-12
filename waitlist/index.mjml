@@ -48,11 +48,23 @@
           line-height="32px"
           letter-spacing="0"
           color="#34C759"
-          padding-top="30px"
+          padding="20px 0"
           font-style="medium"
           align="center"
         >
           You’re on the Waitlist! 🎉
+        </mj-text>
+
+        <mj-text
+          padding="20px 0"
+          font-family="inter"
+          font-weight="600"
+          line-height="20px"
+          letter-spacing="0"
+          font-size="20px"
+          color="#333333"
+          align="justify"
+          >Congratulations {{name}}!
         </mj-text>
 
         <mj-text
@@ -64,7 +76,14 @@
           font-size="14px"
           color="#333333"
           align="justify"
-        >Congratulations! You’ve secured a spot on the exclusive Waitlist for PinovX. <br/><br/> We started this journey with a single realization: the current financial system is intentionally over-complicated. Between the hidden fees of traditional banks and the technical jargon of old-school crypto exchanges, the "middleman" always finds a way to stand between you and your money.
+        >
+          You’ve secured a spot on the exclusive Waitlist for PinovX.
+          <br /><br />
+          We started this journey with a single realization: the current
+          financial system is intentionally over-complicated. Between the hidden
+          fees of traditional banks and the technical jargon of old-school
+          crypto exchanges, the "middleman" always finds a way to stand between
+          you and your money.
         </mj-text>
         <mj-text
           padding="10px 0"
@@ -142,7 +161,6 @@
     </mj-section>
     <!-- End greeting/intro section -->
 
-
     <!-- start salutation section -->
 
     <mj-section padding="0">
@@ -163,7 +181,7 @@
               font-size: 14px;
               line-height: 22px;
               letter-spacing: 0%;
-              color: #14AE5C;
+              color: #14ae5c;
             "
             >PinovX</span
           >
@@ -238,7 +256,7 @@
           align="center"
           padding="2px 30px 0"
         >
-      © {{year}} PinovX. All rights reserved.
+          © {{year}} PinovX. All rights reserved.
         </mj-text>
       </mj-column>
     </mj-section>
@@ -251,7 +269,8 @@
           color="#000000"
           align="center"
           padding="30px 30px 0"
-        >You are receiving this mail because you are registering to join the PinovX platform as a user.                   
+          >You are receiving this mail because you are registering to join the
+          PinovX platform as a user.
         </mj-text>
       </mj-column>
     </mj-section>
@@ -290,7 +309,6 @@
           >
         </mj-text>
       </mj-column>
-
     </mj-section>
     <!-- end policy and terms section -->
   </mj-body>

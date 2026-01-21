@@ -24,276 +24,303 @@
 
   <mj-body background-color="white">
     <!-- body-logo-hero-section -->
+    <mj-wrapper>
+      <!-- hero section -->
 
-    <mj-section padding="0">
-      <mj-column width="100%" padding="0"
-        ><mj-image
-          src="https://res.cloudinary.com/danxk4ua5/image/upload/v1761858920/Banner_image_1_nhvzan.png"
-          alt="hero-image"
-          width="600px"
-          padding="0"
-          fluid-on-mobile="true"
-          css-class="full-width-image"
-      /></mj-column>
-    </mj-section>
-    <!-- body-logo-hero-section -->
+      <mj-section padding="0">
+        <mj-column width="100%" padding="0"
+          ><mj-image
+            src="https://res.cloudinary.com/danxk4ua5/image/upload/v1761858920/Banner_image_1_nhvzan.png"
+            alt="hero-image"
+            width="600px"
+            padding="0"
+            fluid-on-mobile="true"
+            css-class="full-width-image"
+        /></mj-column>
+      </mj-section>
 
-    <!-- start greeting/intro section -->
-    <mj-section>
-      <mj-column>
-        <mj-text
-          font-family="Inter, Arial, sans-serif"
-          font-size="24px"
-          font-weight="500"
-          line-height="32px"
-          letter-spacing="0"
-          padding-top="30px"
-          align="left"
-        >
-          Hi {{name}}
-        </mj-text>
-
-        <mj-text
-          padding="20px 0"
-          font-family="inter"
-          font-weight="500"
-          line-height="24px"
-          letter-spacing="0"
-          font-size="14px"
-          color="#333333"
-          align="justify"
-        >
-          At PinovX, we started with a simple question: Why is moving your own
-          money so complicated? Between high bank fees, slow processing times,
-          and confusing crypto exchanges, the "middleman" always seemed to win.
-        </mj-text>
-        <mj-text
-          padding="10px 0"
-          font-family="inter"
-          font-weight="500"
-          line-height="24px"
-          letter-spacing="0"
-          font-size="14px"
-          color="#333333"
-          align="justify"
-        >
-          We’ve changed that. From this moment on, you have a direct line to the
-          world of virtual currencies. No more waiting hours or days for
-          approvals or navigating 20-step verification processes for every
-          single trade.
-        </mj-text>
-        <mj-text
-          padding="10px 0"
-          font-family="inter"
-          font-weight="500"
-          line-height="24px"
-          letter-spacing="0"
-          font-size="14px"
-          color="#333333"
-          align="justify"
-        >
-          Here’s what you can do right now:<br /><br />
-          • Direct Funding: Link your Interac email and move CAD instantly.<br />
-          • One-Tap Trading: Buy Bitcoin, Ethereum, and more without
-          complexity.<br />
-          • Borderless Sending: Send funds globally—fast, affordable,
-          transparent.
-        </mj-text>
-      </mj-column>
-    </mj-section>
-
-    <!-- start button section -->
-
-    <mj-section padding="0px">
-      <mj-column>
-        <mj-button
-          href="https://pinovx.com"
-          align="center"
-          background-color="#189913"
-          border-radius="42px"
-          padding="20px 0"
-          inner-padding="5.6px 22.4px"
-          width="167.8px"
-          height="39.2px"
-          font-size="14px"
-          font-weight="normal"
-        >
-          Go to Dashboard
-        </mj-button>
-      </mj-column>
-    </mj-section>
-
-    <!-- end button section -->
-
-    <mj-section padding="0">
-      <mj-column>
-        <mj-text
-          padding="0"
-          font-weight="400"
-          line-height="22px"
-          letter-spacing="0"
-          font-size="14px"
-          color="#333333"
-          >Need a hand? Our goal is to make this so easy you won't need a
-          manual. But if you ever have a question, our
-          <a href="mail:support@pinovx.com" style="color: #189913">support</a>
-          team is just a chat away.<br />
-          <br />
-        </mj-text>
-      </mj-column>
-    </mj-section>
-
-    <!-- End greeting/intro section -->
-
-    <!-- start salutation section -->
-
-    <mj-section padding="0">
-      <mj-column>
-        <mj-text
-          padding="0"
-          font-weight="400"
-          line-height="22px"
-          letter-spacing="0"
-          font-size="14px"
-          color="#333333"
-          >Best Regards,<br />
-
-          <span
-            style="
-              font-family: Inter, Arial, sans-serif;
-              font-weight: 500;
-              font-size: 14px;
-              line-height: 22px;
-              letter-spacing: 0%;
-              color: #14ae5c;
-            "
-            >PinovX</span
+      <!-- start greeting/intro section -->
+      <mj-section padding="40px 25px 20px 25px">
+        <mj-column>
+          <mj-text
+            font-family="Inter, Arial, sans-serif"
+            font-size="24px"
+            font-weight="500"
+            line-height="32px"
+            letter-spacing="0"
+            padding-top="30px"
+            align="left"
           >
-        </mj-text>
-      </mj-column>
-    </mj-section>
+            Hi {{name}}
+          </mj-text>
 
-    <!-- end salutation section -->
-
-    <mj-section padding="30px 0 0 0">
-      <mj-column padding="20px" width="100%">
-        <mj-divider
-          border-width="1px"
-          border-color="#D9D9D9"
-          padding="0"
-          width="100%"
-        />
-      </mj-column>
-    </mj-section>
-
-    <!-- start social media icon -->
-
-    <mj-section padding="0">
-      <!-- Social media icons -->
-      <mj-column width="100px">
-        <mj-social
-          font-size="31px"
-          icon-size="31px"
-          mode="horizontal"
-          css-class="social-icons"
-        >
-          <mj-social-element
-            name="instagram"
-            href="https://pinovx.com"
-            border-radius="15.5px"
-            background-color="#14ae5c"
-          />
-          <mj-social-element
-            name="facebook"
-            href="https://pinovx.com"
-            border-radius="15.5px"
-            background-color="#14ae5c"
-          />
-          <mj-social-element
-            src="https://res.cloudinary.com/danxk4ua5/image/upload/v1761837336/Vector_zamib0.png"
-            href="https://pinovx.com"
-            border-radius="15.5px"
-            background-color="#14ae5c"
-          />
-        </mj-social>
-      </mj-column>
-    </mj-section>
-    <!-- end social media icon -->
-
-    <mj-section padding="20px 0 0 0 ">
-      <mj-column padding="0" width="100%">
-        <mj-divider
-          border-width="1px"
-          border-color="#D9D9D9"
-          padding="0"
-          width="100%"
-        />
-      </mj-column>
-    </mj-section>
-
-    <!-- Start subscribe/disclaimer section -->
-    <mj-section padding="10px 0 0 0 ">
-      <mj-column width="100%">
-        <mj-text
-          font-size="10px"
-          color="#000000"
-          align="center"
-          padding="2px 30px 0"
-        >
-          © {{year}} PinovX. All rights reserved.
-        </mj-text>
-      </mj-column>
-    </mj-section>
-
-    <!-- end subscribe/disclaimer section -->
-    <mj-section padding="0">
-      <mj-column width="100%">
-        <mj-text
-          font-size="10px"
-          color="#000000"
-          align="center"
-          padding="30px 30px 0"
-          >You are receiving this mail because you are registering to join the
-          PinovX platform as a user.
-        </mj-text>
-      </mj-column>
-    </mj-section>
-
-    <!-- start of policy and terms section -->
-
-    <mj-section padding="30px 0 0 0" text-align="center">
-      <mj-column width="130px">
-        <mj-text font-size="10px" color="#000000" align="center" padding="0">
-          <a
-            href="https://pinovx.com"
-            style="
-              text-decoration: underline;
-              color: #333333;
-              font-size: 10px;
-              line-height: 20px;
-              display: inline-block;
-            "
-            >Privacy Policy</a
+          <mj-text
+            padding="20px 0"
+            font-family="inter"
+            font-weight="500"
+            line-height="24px"
+            letter-spacing="0"
+            font-size="14px"
+            color="#333333"
+            align="justify"
           >
-        </mj-text>
-      </mj-column>
-
-      <mj-column width="130px">
-        <mj-text font-size="10px" color="#000000" align="center" padding="0">
-          <a
-            href="https://pinovx.com"
-            style="
-              text-decoration: underline;
-              color: #333333;
-              font-size: 10px;
-              line-height: 20px;
-              display: inline-block;
-            "
-            >Contact Us</a
+            At PinovX, we started with a simple question: Why is moving your own
+            money so complicated? Between high bank fees, slow processing times,
+            and confusing crypto exchanges, the "middleman" always seemed to
+            win.
+          </mj-text>
+          <mj-text
+            padding="10px 0"
+            font-family="inter"
+            font-weight="500"
+            line-height="24px"
+            letter-spacing="0"
+            font-size="14px"
+            color="#333333"
+            align="justify"
           >
-        </mj-text>
-      </mj-column>
-    </mj-section>
-    <!-- end policy and terms section -->
+            We’ve changed that. From this moment on, you have a direct line to
+            the world of virtual currencies. No more waiting hours or days for
+            approvals or navigating 20-step verification processes for every
+            single trade.
+          </mj-text>
+          <mj-text
+            padding="10px 0"
+            font-family="inter"
+            font-weight="500"
+            line-height="24px"
+            letter-spacing="0"
+            font-size="14px"
+            color="#333333"
+            align="justify"
+          >
+            Here’s what you can do right now:<br /><br />
+            • Direct Funding: Link your Interac email and move CAD instantly.<br />
+            • One-Tap Trading: Buy Bitcoin, Ethereum, and more without
+            complexity.<br />
+            • Borderless Sending: Send funds globally—fast, affordable,
+            transparent.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- start button section -->
+
+      <mj-section padding="10px 20px">
+        <mj-column>
+          <mj-button
+            href="https://pinovx.com"
+            align="center"
+            background-color="#189913"
+            border-radius="42px"
+            padding="20px 0"
+            inner-padding="5.6px 22.4px"
+            width="167.8px"
+            height="39.2px"
+            font-size="14px"
+            font-weight="normal"
+          >
+            Go to Dashboard
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- end button section -->
+
+      <mj-section padding="40px 25px 20px 25px">
+        <mj-column>
+          <mj-text
+            padding="0"
+            font-weight="400"
+            line-height="22px"
+            letter-spacing="0"
+            font-size="14px"
+            color="#333333"
+            >Need a hand? Our goal is to make this so easy you won't need a
+            manual. But if you ever have a question, our
+            <a href="mail:support@pinovx.com" style="color: #189913">support</a>
+            team is just a chat away.<br />
+            <br />
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="40px 25px 20px 25px">
+        <mj-column>
+          <mj-text
+            padding="0"
+            font-weight="400"
+            line-height="22px"
+            letter-spacing="0"
+            font-size="14px"
+            color="#333333"
+            >Best Regards,<br />
+
+            <span
+              style="
+                font-family: Inter, Arial, sans-serif;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 22px;
+                letter-spacing: 0%;
+                color: #14ae5c;
+              "
+              >PinovX</span
+            >
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+
+
+
+      <!-- Divider -->
+      <mj-section padding="0 ">
+        <mj-column>
+          <mj-divider border-width="1px" border-color="#e5e5e5" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Social Media Icons -->
+      <mj-section padding="30px 25px 20px 25px">
+        <mj-column>
+          <mj-social
+            mode="horizontal"
+            align="center"
+            icon-size="32px"
+            inner-padding="4px"
+            padding="0 10px"
+          >
+            <mj-social-element
+              name="instagram"
+              href="https://www.instagram.com/wearepinovx/"
+              background-color="#14ae5c"
+              border-radius="16px"
+              padding="0 5px"
+            >
+            </mj-social-element>
+
+            <mj-social-element
+              name="linkedin"
+              href="https://www.linkedin.com/company/pinov-inc/"
+              background-color="#14ae5c"
+              border-radius="16px"
+              padding="0 5px"
+            >
+            </mj-social-element>
+
+            <mj-social-element
+              name="facebook"
+              href="https://www.facebook.com/wearepinovx"
+              background-color="#14ae5c"
+              border-radius="16px"
+              padding="0 5px"
+            >
+            </mj-social-element>
+
+            <mj-social-element
+              src="https://res.cloudinary.com/danxk4ua5/image/upload/v1761837336/Vector_zamib0.png"
+              href="https://x.com/wearepinovx"
+              background-color="#14ae5c"
+              border-radius="16px"
+              padding="0 5px"
+            >
+            </mj-social-element>
+          </mj-social>
+        </mj-column>
+      </mj-section>
+
+      <!-- Divider -->
+      <mj-section padding="20px 0 0 0">
+        <mj-column>
+          <mj-divider border-width="1px" border-color="#e5e5e5" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Copyright -->
+      <mj-section padding="20px 25px 10px 25px">
+        <mj-column>
+          <mj-text
+            font-size="11px"
+            color="#777777"
+            align="center"
+            line-height="17px"
+          >
+            © {{currentYear}} PinovX. All rights reserved.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Disclaimer -->
+      <mj-section padding="0 25px 20px 25px">
+        <mj-column>
+          <mj-text
+            font-size="11px"
+            color="#777777"
+            align="center"
+            line-height="17px"
+          >
+            You are receiving this email because you are registering to join the
+            PinovX platform. This also shows that you agree to our Terms of Use
+            and Privacy Policy.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Footer Links -->
+      <mj-section padding="0 25px 30px 25px">
+        <mj-group>
+          <mj-column width="33.33%">
+            <mj-text
+              font-size="11px"
+              align="center"
+              padding="5px 0"
+              line-height="17px"
+            >
+              <a
+                href="https://pinovx.com/privacy-policy"
+                style="color: #555555; text-decoration: underline"
+              >
+                Privacy Policy
+              </a>
+            </mj-text>
+          </mj-column>
+          <mj-column width="33.33%">
+            <mj-text
+              font-size="11px"
+              align="center"
+              padding="5px 0"
+              line-height="17px"
+            >
+              <a
+                href="https://pinovx.com/aml-policy"
+                style="color: #555555; text-decoration: underline"
+              >
+                Aml Policy
+              </a>
+            </mj-text>
+          </mj-column>
+
+          <mj-column width="33.33%">
+            <mj-text
+              font-size="11px"
+              align="center"
+              padding="5px 0"
+              line-height="17px"
+            >
+              <a
+                href="https://pinovx.com/terms-of-use"
+                style="color: #555555; text-decoration: underline"
+              >
+                Terms of Service
+              </a>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+
+
+    </mj-wrapper>
   </mj-body>
 </mjml>

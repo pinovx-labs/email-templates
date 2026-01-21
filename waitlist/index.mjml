@@ -23,293 +23,325 @@
   </mj-head>
 
   <mj-body background-color="white">
-    <!-- body-logo-hero-section -->
+    <mj-wrapper background-color="#ffffff" padding="0">
+      <!-- body-logo-hero-section -->
 
-    <mj-section padding="0">
-      <mj-column width="100%" padding="0"
-        ><mj-image
-          src="https://res.cloudinary.com/danxk4ua5/image/upload/v1761858920/Banner_image_1_nhvzan.png"
-          alt="hero-image"
-          width="600px"
-          padding="0"
-          fluid-on-mobile="true"
-          css-class="full-width-image"
-      /></mj-column>
-    </mj-section>
-    <!-- body-logo-hero-section -->
+      <mj-section padding="0">
+        <mj-column width="100%" padding="0"
+          ><mj-image
+            src="https://res.cloudinary.com/danxk4ua5/image/upload/v1761858920/Banner_image_1_nhvzan.png"
+            alt="hero-image"
+            width="600px"
+            padding="0"
+            fluid-on-mobile="true"
+            css-class="full-width-image"
+        /></mj-column>
+      </mj-section>
+      <!-- body-logo-hero-section -->
 
-    <!-- start greeting/intro section -->
-    <mj-section>
-      <mj-column>
-        <mj-text
-          font-family="Inter, Arial, sans-serif"
-          font-size="36px"
-          font-weight="bold"
-          line-height="32px"
-          letter-spacing="0"
-          color="#34C759"
-          padding="20px 0"
-          font-style="medium"
-          align="center"
-        >
-          You’re on the Waitlist! 🎉
-        </mj-text>
-
-        <mj-text
-          padding="20px 0"
-          font-family="inter"
-          font-weight="600"
-          line-height="20px"
-          letter-spacing="0"
-          font-size="20px"
-          color="#333333"
-          align="justify"
-          >Congratulations {{name}}!
-        </mj-text>
-
-        <mj-text
-          padding="20px 0"
-          font-family="inter"
-          font-weight="500"
-          line-height="24px"
-          letter-spacing="0"
-          font-size="14px"
-          color="#333333"
-          align="justify"
-        >
-          You’ve secured a spot on the exclusive Waitlist for PinovX.
-          <br /><br />
-          We started this journey with a single realization: the current
-          financial system is intentionally over-complicated. Between the hidden
-          fees of traditional banks and the technical jargon of old-school
-          crypto exchanges, the "middleman" always finds a way to stand between
-          you and your money.
-        </mj-text>
-        <mj-text
-          padding="10px 0"
-          font-family="inter"
-          font-weight="500"
-          line-height="24px"
-          letter-spacing="0"
-          font-size="14px"
-          color="#333333"
-          align="justify"
-        >
-          <span style="font-weight: 700"> We’re here to change that.</span>
-          <br />
-          By joining this waitlist, you’ve signaled that you’re ready for a
-          simpler way to buy, sell, and move digital assets. No more 10-step
-          verification loops, no more waiting days for transfers to clear, and
-          no more paying "convenience fees" to people who aren't actually making
-          your life more convenient.
-        </mj-text>
-        <mj-text
-          padding="10px 0"
-          font-family="inter"
-          font-weight="500"
-          line-height="24px"
-          letter-spacing="0"
-          font-size="14px"
-          color="#333333"
-          align="justify"
-        >
-          <span style="font-weight: 700"> What happens next?</span> <br />
-          We are rolling out access in stages to ensure that our "seamless"
-          promise holds true for every single user. Here is what you can expect
-          as a waitlist member: <br />
-          <ul>
-            <li>
-              Priority Access: You’ll be among the very first to download the
-              app and create your account before the general public.
-            </li>
-
-            <li>
-              Exclusive Sneak Peeks: We’ll send you occasional updates showing
-              off our simplified interface and new features—no spam, just
-              progress.
-            </li>
-
-            <li>
-              Early-Bird Perks: As a "thank you" for being an early supporter,
-              keep an eye out for special reduced-fee tiers or rewards available
-              only to our waitlist community.
-            </li>
-          </ul></mj-text
-        >
-
-        <mj-text
-          padding="10px 0"
-          font-family="inter"
-          font-weight="500"
-          line-height="24px"
-          letter-spacing="0"
-          font-size="14px"
-          color="#333333"
-          align="justify"
-        >
-          <span style="font-weight: 700">
-            Help us move faster (and move up the line).</span
+      <!-- start greeting/intro section -->
+      <mj-section padding="40px 25px 20px 25px">
+        <mj-column>
+          <mj-text
+            font-family="Inter, Arial, sans-serif"
+            font-size="36px"
+            font-weight="bold"
+            line-height="32px"
+            letter-spacing="0"
+            color="#34C759"
+            padding="20px 0"
+            font-style="medium"
+            align="center"
           >
-          <br />
+            You’re on the Waitlist! 🎉
+          </mj-text>
 
-          We are building PinovX for people who value their time and their
-          financial freedom. If you know someone who is tired of complicated
-          banking and expensive crypto hurdles, share the goodnews with them.
-          PinovX is coming!
-        </mj-text>
-      </mj-column>
-    </mj-section>
-    <!-- End greeting/intro section -->
+          <mj-text
+            padding="20px 0"
+            font-family="inter"
+            font-weight="600"
+            line-height="20px"
+            letter-spacing="0"
+            font-size="20px"
+            color="#333333"
+            align="justify"
+            >Congratulations !
+          </mj-text>
 
-    <!-- start salutation section -->
-
-    <mj-section padding="0">
-      <mj-column>
-        <mj-text
-          padding="0"
-          font-weight="400"
-          line-height="22px"
-          letter-spacing="0"
-          font-size="14px"
-          color="#333333"
-          >See you soon,<br />
-
-          <span
-            style="
-              font-family: Inter, Arial, sans-serif;
-              font-weight: 500;
-              font-size: 14px;
-              line-height: 22px;
-              letter-spacing: 0%;
-              color: #14ae5c;
-            "
-            >PinovX</span
+          <mj-text
+            padding="20px 0"
+            font-family="inter"
+            font-weight="500"
+            line-height="24px"
+            letter-spacing="0"
+            font-size="14px"
+            color="#333333"
+            align="justify"
           >
-        </mj-text>
-      </mj-column>
-    </mj-section>
-
-    <!-- end salutation section -->
-
-    <mj-section padding="30px 0 0 0">
-      <mj-column padding="20px" width="100%">
-        <mj-divider
-          border-width="1px"
-          border-color="#D9D9D9"
-          padding="0"
-          width="100%"
-        />
-      </mj-column>
-    </mj-section>
-
-    <!-- start social media icon -->
-
-    <mj-section padding="0">
-      <!-- Social media icons -->
-      <mj-column width="100px">
-        <mj-social
-          font-size="31px"
-          icon-size="31px"
-          mode="horizontal"
-          css-class="social-icons"
-        >
-          <mj-social-element
-            name="instagram"
-            href="https://pinovx.com"
-            border-radius="15.5px"
-            background-color="#14ae5c"
-          />
-          <mj-social-element
-            name="facebook"
-            href="https://pinovx.com"
-            border-radius="15.5px"
-            background-color="#14ae5c"
-          />
-          <mj-social-element
-            src="https://res.cloudinary.com/danxk4ua5/image/upload/v1761837336/Vector_zamib0.png"
-            href="https://pinovx.com"
-            border-radius="15.5px"
-            background-color="#14ae5c"
-          />
-        </mj-social>
-      </mj-column>
-    </mj-section>
-    <!-- end social media icon -->
-
-    <mj-section padding="20px 0 0 0 ">
-      <mj-column padding="0" width="100%">
-        <mj-divider
-          border-width="1px"
-          border-color="#D9D9D9"
-          padding="0"
-          width="100%"
-        />
-      </mj-column>
-    </mj-section>
-
-    <!-- Start subscribe/disclaimer section -->
-    <mj-section padding="10px 0 0 0 ">
-      <mj-column width="100%">
-        <mj-text
-          font-size="10px"
-          color="#000000"
-          align="center"
-          padding="2px 30px 0"
-        >
-          © {{year}} PinovX. All rights reserved.
-        </mj-text>
-      </mj-column>
-    </mj-section>
-
-    <!-- end subscribe/disclaimer section -->
-    <mj-section padding="0">
-      <mj-column width="100%">
-        <mj-text
-          font-size="10px"
-          color="#000000"
-          align="center"
-          padding="30px 30px 0"
-          >You are receiving this mail because you are registering to join the
-          PinovX platform as a user.
-        </mj-text>
-      </mj-column>
-    </mj-section>
-
-    <!-- start of policy and terms section -->
-
-    <mj-section padding="30px 0 0 0" text-align="center">
-      <mj-column width="130px">
-        <mj-text font-size="10px" color="#000000" align="center" padding="0">
-          <a
-            href="#"
-            style="
-              text-decoration: underline;
-              color: #333333;
-              font-size: 10px;
-              line-height: 20px;
-              display: inline-block;
-            "
-            >Privacy Policy</a
+            You’ve secured a spot on the exclusive Waitlist for PinovX.
+            <br /><br />
+            We started this journey with a single realization: the current
+            financial system is intentionally over-complicated. Between the
+            hidden fees of traditional banks and the technical jargon of
+            old-school crypto exchanges, the "middleman" always finds a way to
+            stand between you and your money.
+          </mj-text>
+          <mj-text
+            padding="10px 0"
+            font-family="inter"
+            font-weight="500"
+            line-height="24px"
+            letter-spacing="0"
+            font-size="14px"
+            color="#333333"
+            align="justify"
           >
-        </mj-text>
-      </mj-column>
-
-      <mj-column width="130px">
-        <mj-text font-size="10px" color="#000000" align="center" padding="0">
-          <a
-            href="#"
-            style="
-              text-decoration: underline;
-              color: #333333;
-              font-size: 10px;
-              line-height: 20px;
-              display: inline-block;
-            "
-            >Contact Us</a
+            <span style="font-weight: 700"> We’re here to change that.</span>
+            <br />
+            By joining this waitlist, you’ve signaled that you’re ready for a
+            simpler way to buy, sell, and move digital assets. No more 10-step
+            verification loops, no more waiting days for transfers to clear, and
+            no more paying "convenience fees" to people who aren't actually
+            making your life more convenient.
+          </mj-text>
+          <mj-text
+            padding="10px 0"
+            font-family="inter"
+            font-weight="500"
+            line-height="24px"
+            letter-spacing="0"
+            font-size="14px"
+            color="#333333"
+            align="justify"
           >
-        </mj-text>
-      </mj-column>
-    </mj-section>
+            <span style="font-weight: 700"> What happens next?</span> <br />
+            We are rolling out access in stages to ensure that our "seamless"
+            promise holds true for every single user. Here is what you can
+            expect as a waitlist member: <br />
+            <ul>
+              <li>
+                Priority Access: You’ll be among the very first to download the
+                app and create your account before the general public.
+              </li>
+
+              <li>
+                Exclusive Sneak Peeks: We’ll send you occasional updates showing
+                off our simplified interface and new features—no spam, just
+                progress.
+              </li>
+
+              <li>
+                Early-Bird Perks: As a "thank you" for being an early supporter,
+                keep an eye out for special reduced-fee tiers or rewards
+                available only to our waitlist community.
+              </li>
+            </ul></mj-text
+          >
+
+          <mj-text
+            padding="10px 0"
+            font-family="inter"
+            font-weight="500"
+            line-height="24px"
+            letter-spacing="0"
+            font-size="14px"
+            color="#333333"
+            align="justify"
+          >
+            <span style="font-weight: 700">
+              Help us move faster (and move up the line).</span
+            >
+            <br />
+
+            We are building PinovX for people who value their time and their
+            financial freedom. If you know someone who is tired of complicated
+            banking and expensive crypto hurdles, share the goodnews with them.
+            PinovX is coming!
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- End greeting/intro section -->
+
+      <!-- start salutation section -->
+
+      <mj-section padding="0 25px 40px 25px">
+        <mj-column>
+          <mj-text
+            padding="0"
+            font-weight="400"
+            line-height="22px"
+            letter-spacing="0"
+            font-size="14px"
+            color="#333333"
+            >See you soon,<br />
+
+            <span
+              style="
+                font-family: Inter, Arial, sans-serif;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 22px;
+                letter-spacing: 0%;
+                color: #14ae5c;
+              "
+              >PinovX</span
+            >
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- end salutation section -->
+
+   
+   
+    <!-- Divider -->
+      <mj-section padding="0 ">
+        <mj-column>
+          <mj-divider border-width="1px" border-color="#e5e5e5" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Social Media Icons -->
+      <mj-section padding="30px 25px 20px 25px">
+        <mj-column>
+          <mj-social
+            mode="horizontal"
+            align="center"
+            icon-size="32px"
+            inner-padding="4px"
+            padding="0 10px"
+          >
+            <mj-social-element
+              name="instagram"
+              href="https://www.instagram.com/wearepinovx/"
+              background-color="#14ae5c"
+              border-radius="16px"
+              padding="0 5px"
+            >
+            </mj-social-element>
+
+            <mj-social-element
+              name="linkedin"
+              href="https://www.linkedin.com/company/pinov-inc/"
+              background-color="#14ae5c"
+              border-radius="16px"
+              padding="0 5px"
+            >
+            </mj-social-element>
+
+            <mj-social-element
+              name="facebook"
+              href="https://www.facebook.com/wearepinovx"
+              background-color="#14ae5c"
+              border-radius="16px"
+              padding="0 5px"
+            >
+            </mj-social-element>
+
+            <mj-social-element
+              src="https://res.cloudinary.com/danxk4ua5/image/upload/v1761837336/Vector_zamib0.png"
+              href="https://x.com/wearepinovx"
+              background-color="#14ae5c"
+              border-radius="16px"
+              padding="0 5px"
+            >
+            </mj-social-element>
+          </mj-social>
+        </mj-column>
+      </mj-section>
+
+      <!-- Divider -->
+      <mj-section padding="20px 0 0 0">
+        <mj-column>
+          <mj-divider border-width="1px" border-color="#e5e5e5" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Copyright -->
+      <mj-section padding="20px 25px 10px 25px">
+        <mj-column>
+          <mj-text
+            font-size="11px"
+            color="#777777"
+            align="center"
+            line-height="17px"
+          >
+            © {{currentYear}} PinovX. All rights reserved.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Disclaimer -->
+      <mj-section padding="0 25px 20px 25px">
+        <mj-column>
+          <mj-text
+            font-size="11px"
+            color="#777777"
+            align="center"
+            line-height="17px"
+          >
+            You are receiving this email because you are registering to join the
+            PinovX platform. This also shows that you agree to our Terms of Use
+            and Privacy Policy.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Footer Links -->
+      <mj-section padding="0 25px 30px 25px">
+        <mj-group>
+          <mj-column width="33.33%">
+            <mj-text
+              font-size="11px"
+              align="center"
+              padding="5px 0"
+              line-height="17px"
+            >
+              <a
+                href="https://pinovx.com/privacy-policy"
+                style="color: #555555; text-decoration: underline"
+              >
+                Privacy Policy
+              </a>
+            </mj-text>
+          </mj-column>
+          <mj-column width="33.33%">
+            <mj-text
+              font-size="11px"
+              align="center"
+              padding="5px 0"
+              line-height="17px"
+            >
+              <a
+                href="https://pinovx.com/aml-policy"
+                style="color: #555555; text-decoration: underline"
+              >
+                Aml Policy
+              </a>
+            </mj-text>
+          </mj-column>
+
+          <mj-column width="33.33%">
+            <mj-text
+              font-size="11px"
+              align="center"
+              padding="5px 0"
+              line-height="17px"
+            >
+              <a
+                href="https://pinovx.com/terms-of-use"
+                style="color: #555555; text-decoration: underline"
+              >
+                Terms of Service
+              </a>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+   
+   
+       </mj-wrapper>
     <!-- end policy and terms section -->
   </mj-body>
 </mjml>

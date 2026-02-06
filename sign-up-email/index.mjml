@@ -52,7 +52,7 @@
         <mj-column>
           <mj-text
             font-size="24px"
-            font-weight="700"
+            font-weight="500"
             line-height="31px"
             color="#333333"
             padding-bottom="20px"
@@ -66,7 +66,7 @@
             line-height="22px"
             color="#555555"
           >
-            Here is your One Time Password (OTP). Please enter this code to
+            Here is your One Time Password (OTP). <br/> Please enter this code to
             verify your email address for PinovX.
           </mj-text>
         </mj-column>

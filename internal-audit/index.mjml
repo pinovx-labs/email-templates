@@ -210,10 +210,6 @@
               </li>
             </ul>
 
-
-
-
-
             <br />
             <br />
             <br />
@@ -223,30 +219,40 @@
             <ul>
               <li>
                 <span style="font-weight: bold">Admin user profile:</span>
- {{admin_user_profile_link}}
+                {{admin_user_profile_link}}
               </li>
               <li>
-                <span style="font-weight: bold">Transaction attempt log:
-:</span>
- {{admin_event_log_link}}              </li>
-              <li>
-                <span style="font-weight: bold">App version: </span>
-                {{app_version}}
+                <span style="font-weight: bold"
+                  >Transaction attempt log: :</span
+                >
+                {{admin_event_log_link}}
               </li>
               <li>
-                <span style="font-weight: bold">Failed attempts today: </span>
-                {{failed_attempt_count_today}}
-              </li>
-              <li>
-                <span style="font-weight: bold">Prior 7d volume: </span>
-                {{volume_7d}} {{limit_currency}}
-              </li>
-              <li>
-                <span style="font-weight: bold">Prior 30d volume: </span>
-                {{volume_30d}} {{limit_currency}}
+                <span style="font-weight: bold">KYT / screening case:</span>
+                {{kyt_case_link}}
               </li>
             </ul>
-          
+
+            <br />
+            <br />
+            <br />
+            <span style="font-weight: bold"> Action Suggested<br /> </span>
+            <br />
+
+            <ul>
+              <li>
+                <span style="font-weight: bold"
+                  >Review for patterning/structuring and unusual behavior.
+                </span>
+              </li>
+              <li>
+                <span style="font-weight: bold"
+                  >If risk warrants, consider temporary controls (enhanced
+                  monitoring, outreach, or account restriction) per SOP.</span
+                >
+              </li>
+              
+            </ul>
           </mj-text>
         </mj-column>
       </mj-section>
@@ -261,147 +267,21 @@
             line-height="22px"
             letter-spacing="0"
             font-size="14px"
-            color="#000000"
+            color="#ff0000"
           >
-            <span style="color: #189913"
-              >If you believe this was not you, please contact support
-              immediately at
-              <a href="mailto:support@pinovx.com">support@pinovx.com</a> .
+            <span style="color: #ff0000">
+            -----
             </span>
 
-            <br /><br />
-            Cheers <br />
-            The PinovX Support Team
+            <br />
+          The information contained in this communication is intended solely for the use of the individual or entity to whom it is addressed and others authorised to receive it as it may contain confidential or legally privileged information. If you are not the intended recipient you are hereby notified that any disclosure, copying, distribution or any action taken in relaying the contents of this information is strictly prohibited and may be unlawful. If you have received this communication in error, please notify us immediately by responding to this e-mail and then deleting from your system. Pinov is not liable for the proper nor complete transmission of the information contained in this communication nor any delay in its receipt.<br />
           </mj-text>
         </mj-column>
       </mj-section>
 
       <!-- end salutation section -->
 
-      <!-- Divider -->
-      <mj-section padding="0 ">
-        <mj-column>
-          <mj-divider border-width="1px" border-color="#e5e5e5" />
-        </mj-column>
-      </mj-section>
 
-      <!-- Social Media Icons -->
-
-      <!-- Social icons -->
-      <mj-section padding="30px 25px 10px 25px">
-        <mj-column>
-          <mj-text align="center" padding="0">
-            <!-- Instagram -->
-            <a
-              href="https://www.instagram.com/wearepinovx/"
-              style="
-                text-decoration: none;
-                display: inline-block;
-                margin: 0 5px;
-              "
-            >
-              <span
-                style="
-                  display: inline-block;
-                  width: 32px;
-                  height: 32px;
-                  background: #14ae5c;
-                  border-radius: 50%;
-                  text-align: center;
-                  line-height: 32px;
-                  padding: 2px;
-                "
-              >
-                <img
-                  src="https://res.cloudinary.com/danxk4ua5/image/upload/v1770740357/Vector_1_uryx9y.png"
-                  width="16"
-                  height="16"
-                  style="vertical-align: middle"
-                />
-              </span>
-            </a>
-
-            <!-- Facebook -->
-            <a
-              href="https://www.facebook.com/wearepinovx"
-              style="
-                text-decoration: none;
-                display: inline-block;
-                margin: 0 5px;
-              "
-            >
-              <span
-                style="
-                  display: inline-block;
-                  width: 32px;
-                  height: 32px;
-                  background: #14ae5c;
-                  border-radius: 50%;
-                  text-align: center;
-                  line-height: 32px;
-                  padding: 2px;
-                "
-              >
-                <img
-                  src="https://res.cloudinary.com/danxk4ua5/image/upload/v1770740357/Icon_qquwtp.png"
-                  width="16"
-                  height="16"
-                  style="vertical-align: middle"
-                />
-              </span>
-            </a>
-
-            <!-- X -->
-            <a
-              href="https://x.com/wearepinovx"
-              style="
-                text-decoration: none;
-                display: inline-block;
-                margin: 0 5px;
-              "
-            >
-              <span
-                style="
-                  display: inline-block;
-                  width: 32px;
-                  height: 32px;
-                  background: #14ae5c;
-                  border-radius: 50%;
-                  text-align: center;
-                  line-height: 32px;
-                  padding: 2px;
-                "
-              >
-                <img
-                  src="https://res.cloudinary.com/danxk4ua5/image/upload/v1761837336/Vector_zamib0.png"
-                  width="16"
-                  height="16"
-                  style="vertical-align: middle"
-                />
-              </span>
-            </a>
-          </mj-text>
-        </mj-column>
-      </mj-section>
-
-      <!-- Logo below -->
-      <mj-section padding="20px 25px 20px 25px">
-        <mj-column>
-          <mj-image
-            align="center"
-            src="https://res.cloudinary.com/danxk4ua5/image/upload/v1770750515/image_1_kyizc1.png"
-            padding="0"
-            width="300px"
-          />
-        </mj-column>
-      </mj-section>
-
-      <!-- Divider -->
-      <mj-section padding="20px 0 0 0">
-        <mj-column>
-          <mj-divider border-width="1px" border-color="#e5e5e5" />
-        </mj-column>
-      </mj-section>
 
       <!-- Copyright -->
 

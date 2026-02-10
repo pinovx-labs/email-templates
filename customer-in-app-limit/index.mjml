@@ -52,9 +52,8 @@
             font-style="medium"
             align="left"
           >
-Hi {{name}}          </mj-text>
-
-
+            Hi {{name}}
+          </mj-text>
 
           <mj-text
             padding="20px 0"
@@ -66,81 +65,41 @@ Hi {{name}}          </mj-text>
             color="#333333"
             align="justify"
           >
-We noticed an attempt to complete a transaction that would exceed your PinovX daily limit. <br/> <br/> For your security and to help us meet compliance requirements, transactions above your daily limit can’t be processed in-app at this time. <br/> <br/>What you can do next?• Try again tomorrow when your daily limit resets; or• If you need to complete a larger transaction, please use our OTC channel: Click on button below to get started. (If prompted, sign in with your verified email and follow the on-screen instructions.          <mj-text
-            padding="10px 0"
-            font-family="inter"
-            font-weight="500"
-            line-height="24px"
-            letter-spacing="0"
-            font-size="14px"
-            color="#333333"
-            align="justify"
-          >
-            <span style="font-weight: 700"> We’re here to change that.</span>
+            We noticed an attempt to complete a transaction that would exceed
+            your PinovX daily limit. <br />
             <br />
-            By joining this waitlist, you’ve signaled that you’re ready for a
-            simpler way to buy, sell, and move digital assets. No more 10-step
-            verification loops, no more waiting days for transfers to clear, and
-            no more paying "convenience fees" to people who aren't actually
-            making your life more convenient.
-          </mj-text>
-          <mj-text
-            padding="10px 0"
-            font-family="inter"
-            font-weight="500"
-            line-height="24px"
-            letter-spacing="0"
-            font-size="14px"
-            color="#333333"
-            align="justify"
-          >
-            <span style="font-weight: 700"> What happens next?</span> <br />
-            We are rolling out access in stages to ensure that our "seamless"
-            promise holds true for every single user. Here is what you can
-            expect as a waitlist member: <br />
-            <ul>
-              <li>
-                Priority Access: You’ll be among the very first to download the
-                app and create your account before the general public.
-              </li>
-
-              <li>
-                Exclusive Sneak Peeks: We’ll send you occasional updates showing
-                off our simplified interface and new features—no spam, just
-                progress.
-              </li>
-
-              <li>
-                Early-Bird Perks: As a "thank you" for being an early supporter,
-                keep an eye out for special reduced-fee tiers or rewards
-                available only to our waitlist community.
-              </li>
-            </ul></mj-text
-          >
-
-          <mj-text
-            padding="10px 0"
-            font-family="inter"
-            font-weight="500"
-            line-height="24px"
-            letter-spacing="0"
-            font-size="14px"
-            color="#333333"
-            align="justify"
-          >
-            <span style="font-weight: 700">
-              Help us move faster (and move up the line).</span
-            >
-            <br />
-
-            We are building PinovX for people who value their time and their
-            financial freedom. If you know someone who is tired of complicated
-            banking and expensive crypto hurdles, share the goodnews with them.
-            PinovX is coming!
+            For your security and to help us meet compliance requirements,
+            transactions above your daily limit can’t be processed in-app at
+            this time. <br />
+            <br />What you can do next? <br />
+            <br />• Try again tomorrow when your daily limit resets; or <br />•
+            If you need to complete a larger transaction, please use our OTC
+            channel: Click on button below to get started.<br />
+            (If prompted, sign in with your verified email and follow the
+            on-screen instructions).
           </mj-text>
         </mj-column>
       </mj-section>
       <!-- End greeting/intro section -->
+      <!-- button section -->
+      <mj-section padding="0px 25px 20px 25px">
+        <mj-column>
+          <mj-button
+            href="https://pinovx.com/otc"
+            background-color="#189913"
+            color="#ffffff"
+            font-size="14px"
+            font-weight="600"
+            border-radius="50px"
+            padding="0"
+            inner-padding="10px 30px"
+            align="left"
+            width="143px"
+          >
+            OTC Here
+          </mj-button>
+        </mj-column>
+      </mj-section>
 
       <!-- start salutation section -->
 
@@ -152,29 +111,24 @@ We noticed an attempt to complete a transaction that would exceed your PinovX da
             line-height="22px"
             letter-spacing="0"
             font-size="14px"
-            color="#333333"
-            >See you soon,<br />
+            color="#000000"
+          >
+            <span style="color: #189913"
+              >If you believe this was not you, please contact support
+              immediately at
+              <a href="mailto:support@pinovx.com">support@pinovx.com</a> .
+            </span>
 
-            <span
-              style="
-                font-family: Inter, Arial, sans-serif;
-                font-weight: 500;
-                font-size: 14px;
-                line-height: 22px;
-                letter-spacing: 0%;
-                color: #14ae5c;
-              "
-              >PinovX</span
-            >
+            <br /><br />
+            Cheers <br />
+            The PinovX Support Team
           </mj-text>
         </mj-column>
       </mj-section>
 
       <!-- end salutation section -->
 
-   
-   
-    <!-- Divider -->
+      <!-- Divider -->
       <mj-section padding="0 ">
         <mj-column>
           <mj-divider border-width="1px" border-color="#e5e5e5" />
@@ -182,51 +136,113 @@ We noticed an attempt to complete a transaction that would exceed your PinovX da
       </mj-section>
 
       <!-- Social Media Icons -->
-      <mj-section padding="30px 25px 20px 25px">
+
+      <!-- Social icons -->
+      <mj-section padding="30px 25px 10px 25px">
         <mj-column>
-          <mj-social
-            mode="horizontal"
-            align="center"
-            icon-size="32px"
-            inner-padding="4px"
-            padding="0 10px"
-          >
-            <mj-social-element
-              name="instagram"
+          <mj-text align="center" padding="0">
+            <!-- Instagram -->
+            <a
               href="https://www.instagram.com/wearepinovx/"
-              background-color="#14ae5c"
-              border-radius="16px"
-              padding="0 5px"
+              style="
+                text-decoration: none;
+                display: inline-block;
+                margin: 0 5px;
+              "
             >
-            </mj-social-element>
+              <span
+                style="
+                  display: inline-block;
+                  width: 32px;
+                  height: 32px;
+                  background: #14ae5c;
+                  border-radius: 50%;
+                  text-align: center;
+                  line-height: 32px;
+                  padding: 2px;
+                "
+              >
+                <img
+                  src="https://res.cloudinary.com/danxk4ua5/image/upload/v1770740357/Vector_1_uryx9y.png"
+                  width="16"
+                  height="16"
+                  style="vertical-align: middle"
+                />
+              </span>
+            </a>
 
-            <mj-social-element
-              name="linkedin"
-              href="https://www.linkedin.com/company/pinov-inc/"
-              background-color="#14ae5c"
-              border-radius="16px"
-              padding="0 5px"
-            >
-            </mj-social-element>
-
-            <mj-social-element
-              name="facebook"
+            <!-- Facebook -->
+            <a
               href="https://www.facebook.com/wearepinovx"
-              background-color="#14ae5c"
-              border-radius="16px"
-              padding="0 5px"
+              style="
+                text-decoration: none;
+                display: inline-block;
+                margin: 0 5px;
+              "
             >
-            </mj-social-element>
+              <span
+                style="
+                  display: inline-block;
+                  width: 32px;
+                  height: 32px;
+                  background: #14ae5c;
+                  border-radius: 50%;
+                  text-align: center;
+                  line-height: 32px;
+                  padding: 2px;
+                "
+              >
+                <img
+                  src="https://res.cloudinary.com/danxk4ua5/image/upload/v1770740357/Icon_qquwtp.png"
+                  width="16"
+                  height="16"
+                  style="vertical-align: middle"
+                />
+              </span>
+            </a>
 
-            <mj-social-element
-              src="https://res.cloudinary.com/danxk4ua5/image/upload/v1761837336/Vector_zamib0.png"
+            <!-- X -->
+            <a
               href="https://x.com/wearepinovx"
-              background-color="#14ae5c"
-              border-radius="16px"
-              padding="0 5px"
+              style="
+                text-decoration: none;
+                display: inline-block;
+                margin: 0 5px;
+              "
             >
-            </mj-social-element>
-          </mj-social>
+              <span
+                style="
+                  display: inline-block;
+                  width: 32px;
+                  height: 32px;
+                  background: #14ae5c;
+                  border-radius: 50%;
+                  text-align: center;
+                  line-height: 32px;
+                  padding: 2px;
+                "
+              >
+                <img
+                  src="https://res.cloudinary.com/danxk4ua5/image/upload/v1761837336/Vector_zamib0.png"
+                  width="16"
+                  height="16"
+                  style="vertical-align: middle"
+                />
+              </span>
+            </a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Logo below -->
+      <mj-section padding="20px 25px 20px 25px">
+        <mj-column>
+          <mj-image
+            align="center"
+            src="https://res.cloudinary.com/danxk4ua5/image/upload/v1770750515/image_1_kyizc1.png"
+            padding="0"
+            width="300px"
+          />
         </mj-column>
       </mj-section>
 
@@ -238,90 +254,61 @@ We noticed an attempt to complete a transaction that would exceed your PinovX da
       </mj-section>
 
       <!-- Copyright -->
-      <mj-section padding="20px 25px 10px 25px">
-        <mj-column>
-          <mj-text
-            font-size="11px"
-            color="#777777"
-            align="center"
-            line-height="17px"
-          >
-            © {{currentYear}} PinovX. All rights reserved.
-          </mj-text>
-        </mj-column>
-      </mj-section>
 
-      <!-- Disclaimer -->
-      <mj-section padding="0 25px 20px 25px">
-        <mj-column>
-          <mj-text
-            font-size="11px"
-            color="#777777"
-            align="center"
-            line-height="17px"
-          >
-            You are receiving this email because you are registering to join the
-            PinovX platform. This also shows that you agree to our Terms of Use
-            and Privacy Policy.
-          </mj-text>
-        </mj-column>
-      </mj-section>
 
-      <!-- Footer Links -->
-      <mj-section padding="0 25px 30px 25px">
-        <mj-group>
-          <mj-column width="33.33%">
-            <mj-text
-              font-size="11px"
-              align="center"
-              padding="5px 0"
-              line-height="17px"
-            >
-              <a
-                href="https://pinovx.com/privacy-policy"
-                style="color: #555555; text-decoration: underline"
-              >
-                Privacy Policy
-              </a>
-            </mj-text>
-          </mj-column>
-          <mj-column width="33.33%">
-            <mj-text
-              font-size="11px"
-              align="center"
-              padding="5px 0"
-              line-height="17px"
-            >
-              <a
-                href="https://pinovx.com/aml-policy"
-                style="color: #555555; text-decoration: underline"
-              >
-                Aml Policy
-              </a>
-            </mj-text>
-          </mj-column>
 
-          <mj-column width="33.33%">
-            <mj-text
-              font-size="11px"
-              align="center"
-              padding="5px 0"
-              line-height="17px"
-            >
-              <a
-                href="https://pinovx.com/terms-of-use"
-                style="color: #555555; text-decoration: underline"
-              >
-                Terms of Service
-              </a>
-            </mj-text>
-          </mj-column>
-        </mj-group>
-      </mj-section>
+<mj-section background-color="#189913" padding="30px 25px 20px 30px">
+  <mj-column>
 
-   
-   
-       </mj-wrapper>
+    <!-- Copyright -->
+    <mj-text
+      color="#ffffff"
+      align="center"
+      font-family="inter"
+      font-weight="400"
+      line-height="100%"
+      font-size="10px"
+    >
+      © {{year}} Pinov Inc. All rights reserved.
+    </mj-text>
+
+    <!-- Legal text -->
+    <mj-text
+      color="#ffffff"
+      font-family="inter"
+      font-weight="400"
+      line-height="126%"
+      font-size="10px"
+      align="center"
+    >
+      Pinov Inc. (1591582-1) is a Money Services Business registered and
+      regulated by FINTRAC, Canada. MSB Registration Number: C100000263.<br />
+      Pinov Pty Ltd (ACN: 682 072 608) is a Digital Currency Exchange regulated
+      by AUSTRAC. Provider Number: DCE100884196-001.
+    </mj-text>
+
+    <!-- Links row -->
+    <mj-text align="center" font-size="10px" padding="10px 0 0 0">
+      <a href="https://pinovx.com/privacy-policy" style="color:#b7e6b5; text-decoration:underline; margin:0 8px;">
+        Privacy Policy
+      </a>
+      
+      <a href="https://pinovx.com/aml-policy" style="color:#b7e6b5; text-decoration:underline; margin:0 8px;">
+        AML Policy
+      </a>
+      
+      <a href="https://pinovx.com/terms-of-use" style="color:#b7e6b5; text-decoration:underline; margin:0 8px;">
+        Terms of Service
+      </a>
+    </mj-text>
+
+  </mj-column>
+</mj-section>
+
+
+
+<mj-section padding="20px"></mj-section>
+    </mj-wrapper>
     <!-- end policy and terms section -->
   </mj-body>
 </mjml>

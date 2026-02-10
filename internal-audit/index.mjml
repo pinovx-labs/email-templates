@@ -1,0 +1,468 @@
+<mjml>
+  <mj-head>
+    <!-- Import fonts, external files here -->
+    <mj-title>PinovX Internal Alert</mj-title>
+    <mj-preview>PinovX Internal Alert</mj-preview>
+
+    <!-- Define device breakpoint here -->
+    <mj-breakpoint width="400px" />
+    <mj-font
+      name="Inter"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700;900&display=swap"
+    />
+
+    <mj-style inline="inline">
+      body { font-family: 'Inter', sans-serif; } .full-width-image { width: 100%
+      !important; max-width: 100% !important; } .social-inline { display:
+      inline-block !important; vertical-align: middle !important; width: auto
+      !important; padding: 0 5px !important; } .social-icons-center {
+      text-align: center !important; margin: 0 auto !important; }
+      .social-icons-center table { margin: 0 auto !important; }.social-icons{
+      display:flex !important;gap:2px !important }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="white">
+    <mj-wrapper background-color="#ffffff" padding="0">
+      <!-- body-logo-hero-section -->
+
+      <mj-section padding="0">
+        <mj-column width="100%" padding="0"
+          ><mj-image
+            src="https://res.cloudinary.com/danxk4ua5/image/upload/v1770737092/Frame_7_wvj76r.png"
+            alt="hero-image"
+            width="600px"
+            padding="0"
+            fluid-on-mobile="true"
+            css-class="full-width-image"
+        /></mj-column>
+      </mj-section>
+      <!-- body-logo-hero-section -->
+
+      <!-- start greeting/intro section -->
+      <mj-section padding="40px 25px 20px 25px">
+        <mj-column>
+          <mj-text
+            font-family="Inter, Arial, sans-serif"
+            font-size="25px"
+            font-weight="medium"
+            letter-spacing="0"
+            color="#ff0000"
+            padding="20px 0"
+            font-style="medium"
+            align="left"
+          >
+            INTERNAL ALERT - ADMIN USE ONLY
+          </mj-text>
+
+          <mj-text
+            padding="20px 0"
+            font-family="inter"
+            font-weight="400"
+            line-height="22px"
+            letter-spacing="0"
+            font-size="16px"
+            color="#333333"
+            align="justify"
+          >
+            Hi Admin, <br />
+            <br />
+
+            Daily limit exceeded attempt — {{user_id}} / {{email}} — {{amount}}
+            {{currency}} <br />
+            <br />
+            <span style="font-weight: bold">
+              Daily limit exceeded attempt detected.<br />
+            </span>
+            <br />
+
+            <span style="font-weight: bold"> User<br /> </span>
+            <br />
+
+            <ul>
+              <li>
+                <span style="font-weight: bold">User ID:</span> {{user_id}}
+              </li>
+              <li>
+                <span style="font-weight: bold">Name :</span> {{full name}}
+              </li>
+              <li><span style="font-weight: bold">Email:</span> {{Email}}</li>
+              <li>
+                <span style="font-weight: bold">KYC status:</span>
+                {{KYC_status}}
+              </li>
+              <li>
+                <span style="font-weight: bold">Risk tier:</span> {{risk_tier}}
+              </li>
+              <li>
+                <span style="font-weight: bold">Account Status:</span>
+                {{account_status}}
+              </li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- End greeting/intro section -->
+      <!-- button section -->
+      <mj-section padding="0px 25px 20px 25px">
+        <mj-column>
+          <mj-button
+            href="https://pinovx.com/otc"
+            background-color="#189913"
+            color="#ffffff"
+            font-size="14px"
+            font-weight="600"
+            border-radius="50px"
+            padding="0"
+            inner-padding="10px 30px"
+            align="left"
+            width="190px"
+          >
+            Lock Account
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="40px 25px 20px 25px">
+        <mj-column>
+          <mj-text
+            padding="20px 0"
+            font-family="inter"
+            font-weight="400"
+            line-height="22px"
+            letter-spacing="0"
+            font-size="16px"
+            color="#333333"
+            align="justify"
+          >
+            <span style="font-weight: bold"> Attempt Details<br /> </span>
+            <br />
+
+            <ul>
+              <li>
+                <span style="font-weight: bold">Timestamp (UTC):</span>
+                {{timestamp_utc}}
+              </li>
+              <li>
+                <span style="font-weight: bold">Amount :</span>
+                {{amount}}{{currency}}
+              </li>
+              <li>
+                <span style="font-weight: bold">Direction:</span> {{Direction}}
+                (e.g., CAD→USDT / USDT→CAD)
+              </li>
+              <li>
+                <span style="font-weight: bold">Requested method/rail:</span>
+                {{rail}}
+              </li>
+              <li>
+                <span style="font-weight: bold">Daily limit:</span>
+                {{daily_limit}} {{limit_currency}}
+              </li>
+              <li>
+                <span style="font-weight: bold"
+                  >Amount used today (before attempt):</span
+                >
+                {{amount_used_today}} {{limit_currency}}
+              </li>
+              <li>
+                <span style="font-weight: bold"
+                  >Amount remaining (before attempt):
+                </span>
+                {{amount_remaining}} {{limit_currency}}
+              </li>
+              <li>
+                <span style="font-weight: bold">Exceed delta: </span>
+                {{exceed_amount}} {{limit_currency}}
+              </li>
+            </ul>
+
+            <br />
+            <br />
+            <br />
+            <span style="font-weight: bold"> Context<br /> </span>
+            <br />
+
+            <ul>
+              <li>
+                <span style="font-weight: bold">IP: </span>
+                {{ip_address}} (geo: {{geo}})
+              </li>
+              <li>
+                <span style="font-weight: bold">Device/session ID:</span>
+                {{session_id}}
+              </li>
+              <li>
+                <span style="font-weight: bold">App version: </span>
+                {{app_version}}
+              </li>
+              <li>
+                <span style="font-weight: bold">Failed attempts today: </span>
+                {{failed_attempt_count_today}}
+              </li>
+              <li>
+                <span style="font-weight: bold">Prior 7d volume: </span>
+                {{volume_7d}} {{limit_currency}}
+              </li>
+              <li>
+                <span style="font-weight: bold">Prior 30d volume: </span>
+                {{volume_30d}} {{limit_currency}}
+              </li>
+            </ul>
+
+
+
+
+
+            <br />
+            <br />
+            <br />
+            <span style="font-weight: bold"> Links<br /> </span>
+            <br />
+
+            <ul>
+              <li>
+                <span style="font-weight: bold">Admin user profile:</span>
+ {{admin_user_profile_link}}
+              </li>
+              <li>
+                <span style="font-weight: bold">Transaction attempt log:
+:</span>
+ {{admin_event_log_link}}              </li>
+              <li>
+                <span style="font-weight: bold">App version: </span>
+                {{app_version}}
+              </li>
+              <li>
+                <span style="font-weight: bold">Failed attempts today: </span>
+                {{failed_attempt_count_today}}
+              </li>
+              <li>
+                <span style="font-weight: bold">Prior 7d volume: </span>
+                {{volume_7d}} {{limit_currency}}
+              </li>
+              <li>
+                <span style="font-weight: bold">Prior 30d volume: </span>
+                {{volume_30d}} {{limit_currency}}
+              </li>
+            </ul>
+          
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- start salutation section -->
+
+      <mj-section padding="0 25px 40px 25px">
+        <mj-column>
+          <mj-text
+            padding="0"
+            font-weight="400"
+            line-height="22px"
+            letter-spacing="0"
+            font-size="14px"
+            color="#000000"
+          >
+            <span style="color: #189913"
+              >If you believe this was not you, please contact support
+              immediately at
+              <a href="mailto:support@pinovx.com">support@pinovx.com</a> .
+            </span>
+
+            <br /><br />
+            Cheers <br />
+            The PinovX Support Team
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- end salutation section -->
+
+      <!-- Divider -->
+      <mj-section padding="0 ">
+        <mj-column>
+          <mj-divider border-width="1px" border-color="#e5e5e5" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Social Media Icons -->
+
+      <!-- Social icons -->
+      <mj-section padding="30px 25px 10px 25px">
+        <mj-column>
+          <mj-text align="center" padding="0">
+            <!-- Instagram -->
+            <a
+              href="https://www.instagram.com/wearepinovx/"
+              style="
+                text-decoration: none;
+                display: inline-block;
+                margin: 0 5px;
+              "
+            >
+              <span
+                style="
+                  display: inline-block;
+                  width: 32px;
+                  height: 32px;
+                  background: #14ae5c;
+                  border-radius: 50%;
+                  text-align: center;
+                  line-height: 32px;
+                  padding: 2px;
+                "
+              >
+                <img
+                  src="https://res.cloudinary.com/danxk4ua5/image/upload/v1770740357/Vector_1_uryx9y.png"
+                  width="16"
+                  height="16"
+                  style="vertical-align: middle"
+                />
+              </span>
+            </a>
+
+            <!-- Facebook -->
+            <a
+              href="https://www.facebook.com/wearepinovx"
+              style="
+                text-decoration: none;
+                display: inline-block;
+                margin: 0 5px;
+              "
+            >
+              <span
+                style="
+                  display: inline-block;
+                  width: 32px;
+                  height: 32px;
+                  background: #14ae5c;
+                  border-radius: 50%;
+                  text-align: center;
+                  line-height: 32px;
+                  padding: 2px;
+                "
+              >
+                <img
+                  src="https://res.cloudinary.com/danxk4ua5/image/upload/v1770740357/Icon_qquwtp.png"
+                  width="16"
+                  height="16"
+                  style="vertical-align: middle"
+                />
+              </span>
+            </a>
+
+            <!-- X -->
+            <a
+              href="https://x.com/wearepinovx"
+              style="
+                text-decoration: none;
+                display: inline-block;
+                margin: 0 5px;
+              "
+            >
+              <span
+                style="
+                  display: inline-block;
+                  width: 32px;
+                  height: 32px;
+                  background: #14ae5c;
+                  border-radius: 50%;
+                  text-align: center;
+                  line-height: 32px;
+                  padding: 2px;
+                "
+              >
+                <img
+                  src="https://res.cloudinary.com/danxk4ua5/image/upload/v1761837336/Vector_zamib0.png"
+                  width="16"
+                  height="16"
+                  style="vertical-align: middle"
+                />
+              </span>
+            </a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Logo below -->
+      <mj-section padding="20px 25px 20px 25px">
+        <mj-column>
+          <mj-image
+            align="center"
+            src="https://res.cloudinary.com/danxk4ua5/image/upload/v1770750515/image_1_kyizc1.png"
+            padding="0"
+            width="300px"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Divider -->
+      <mj-section padding="20px 0 0 0">
+        <mj-column>
+          <mj-divider border-width="1px" border-color="#e5e5e5" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Copyright -->
+
+      <mj-section background-color="#189913" padding="30px 25px 20px 30px">
+        <mj-column>
+          <!-- Copyright -->
+          <mj-text
+            color="#ffffff"
+            align="center"
+            font-family="inter"
+            font-weight="400"
+            line-height="100%"
+            font-size="10px"
+          >
+            © {{year}} Pinov Inc. All rights reserved.
+          </mj-text>
+
+          <!-- Legal text -->
+          <mj-text
+            color="#ffffff"
+            font-family="inter"
+            font-weight="400"
+            line-height="126%"
+            font-size="10px"
+            align="center"
+          >
+            Pinov Inc. (1591582-1) is a Money Services Business registered and
+            regulated by FINTRAC, Canada. MSB Registration Number:
+            C100000263.<br />
+            Pinov Pty Ltd (ACN: 682 072 608) is a Digital Currency Exchange
+            regulated by AUSTRAC. Provider Number: DCE100884196-001.
+          </mj-text>
+
+          <!-- Links row -->
+          <mj-text align="center" font-size="10px" padding="10px 0 0 0">
+            <a
+              href="https://pinovx.com/privacy-policy"
+              style="color: #b7e6b5; text-decoration: underline; margin: 0 8px"
+            >
+              Privacy Policy
+            </a>
+
+            <a
+              href="https://pinovx.com/aml-policy"
+              style="color: #b7e6b5; text-decoration: underline; margin: 0 8px"
+            >
+              AML Policy
+            </a>
+
+            <a
+              href="https://pinovx.com/terms-of-use"
+              style="color: #b7e6b5; text-decoration: underline; margin: 0 8px"
+            >
+              Terms of Service
+            </a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="20px"></mj-section>
+    </mj-wrapper>
+    <!-- end policy and terms section -->
+  </mj-body>
+</mjml>

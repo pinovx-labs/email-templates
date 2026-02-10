@@ -1,8 +1,8 @@
 <mjml>
   <mj-head>
     <!-- Import fonts, external files here -->
-    <mj-title>PinovX Waitlist</mj-title>
-    <mj-preview>PinovX Waitlist</mj-preview>
+    <mj-title>PinovX App Limit</mj-title>
+    <mj-preview>PinovX App Limit</mj-preview>
 
     <!-- Define device breakpoint here -->
     <mj-breakpoint width="400px" />
@@ -29,7 +29,7 @@
       <mj-section padding="0">
         <mj-column width="100%" padding="0"
           ><mj-image
-            src="https://res.cloudinary.com/danxk4ua5/image/upload/v1761858920/Banner_image_1_nhvzan.png"
+            src="https://res.cloudinary.com/danxk4ua5/image/upload/v1770737092/Frame_7_wvj76r.png"
             alt="hero-image"
             width="600px"
             padding="0"
@@ -44,32 +44,29 @@
         <mj-column>
           <mj-text
             font-family="Inter, Arial, sans-serif"
-            font-size="36px"
-            font-weight="bold"
-            line-height="32px"
+            font-size="16px"
+            font-weight="medium"
             letter-spacing="0"
-            color="#34C759"
+            color="#000000"
             padding="20px 0"
             font-style="medium"
-            align="center"
+            align="left"
           >
-            You’re on the Waitlist! 🎉
-          </mj-text>
+Hi {{name}}          </mj-text>
 
 
 
           <mj-text
             padding="20px 0"
             font-family="inter"
-            font-weight="500"
-            line-height="24px"
+            font-weight="400"
+            line-height="22px"
             letter-spacing="0"
-            font-size="14px"
+            font-size="16px"
             color="#333333"
             align="justify"
           >
-          Congratulations! You’ve secured a spot on the exclusive Waitlist for PinovX.<br/><br/> We started this journey with a single realization: the current financial system is intentionally over-complicated. Between the hidden fees of traditional banks and the technical jargon of old-school crypto exchanges, the "middleman"  hassle always finds a way to stand between you and your money.</mj-text>
-          <mj-text
+We noticed an attempt to complete a transaction that would exceed your PinovX daily limit. <br/> <br/> For your security and to help us meet compliance requirements, transactions above your daily limit can’t be processed in-app at this time. <br/> <br/>What you can do next?• Try again tomorrow when your daily limit resets; or• If you need to complete a larger transaction, please use our OTC channel: Click on button below to get started. (If prompted, sign in with your verified email and follow the on-screen instructions.          <mj-text
             padding="10px 0"
             font-family="inter"
             font-weight="500"

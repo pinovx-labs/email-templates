@@ -73,150 +73,21 @@
       </mj-section>
 
       <!-- OTP Section -->
-      <mj-section padding="30px 25px" background-color="#ffffff">
-        <mj-column>
-          <mj-table align="center" padding="0">
-            <tr>
-              <td
-                class="otp-cell"
-                align="center"
-                valign="middle"
-                style="
-                  width: 56px;
-                  height: 56px;
-                  background-color: #892cdc0d;
-                  border-radius: 8px;
-                  font-size: 24px;
-                  font-weight: 600;
-                  color: #333333;
-                  font-family: Inter, Arial, sans-serif;
-                  text-align: center;
-                  vertical-align: middle;
-                  mso-line-height-rule: exactly;
-                  line-height: 16px;
-                "
-              >
-                {0}
-              </td>
-              <td style="width: 8px"></td>
 
-              <td
-                class="otp-cell"
-                align="center"
-                valign="middle"
-                style="
-                  width: 56px;
-                  height: 56px;
-                  background-color: #892cdc0d;
-                  border-radius: 8px;
-                  font-size: 24px;
-                  font-weight: 600;
-                  color: #333333;
-                  font-family: Inter, Arial, sans-serif;
-                  text-align: center;
-                  vertical-align: middle;
-                  mso-line-height-rule: exactly;
-                  line-height: 56px;
-                "
-              >
-                {1}
-              </td>
-              <td style="width: 8px"></td>
-
-              <td
-                class="otp-cell"
-                align="center"
-                valign="middle"
-                style="
-                  width: 56px;
-                  height: 56px;
-                  background-color: #892cdc0d;
-                  border-radius: 8px;
-                  font-size: 24px;
-                  font-weight: 600;
-                  color: #333333;
-                  font-family: Inter, Arial, sans-serif;
-                  text-align: center;
-                  vertical-align: middle;
-                  mso-line-height-rule: exactly;
-                  line-height: 56px;
-                "
-              >
-                {2}
-              </td>
-              <td style="width: 8px"></td>
-
-              <td
-                class="otp-cell"
-                align="center"
-                valign="middle"
-                style="
-                  width: 56px;
-                  height: 56px;
-                  background-color: #892cdc0d;
-                  border-radius: 8px;
-                  font-size: 24px;
-                  font-weight: 600;
-                  color: #333333;
-                  font-family: Inter, Arial, sans-serif;
-                  text-align: center;
-                  vertical-align: middle;
-                  mso-line-height-rule: exactly;
-                  line-height: 56px;
-                "
-              >
-                {3}
-              </td>
-              <td style="width: 8px"></td>
-
-              <td
-                class="otp-cell"
-                align="center"
-                valign="middle"
-                style="
-                  width: 56px;
-                  height: 56px;
-                  background-color: #892cdc0d;
-                  border-radius: 8px;
-                  font-size: 24px;
-                  font-weight: 600;
-                  color: #333333;
-                  font-family: Inter, Arial, sans-serif;
-                  text-align: center;
-                  vertical-align: middle;
-                  mso-line-height-rule: exactly;
-                  line-height: 56px;
-                "
-              >
-                {4}
-              </td>
-              <td style="width: 8px"></td>
-
-              <td
-                class="otp-cell"
-                align="center"
-                valign="middle"
-                style="
-                  width: 56px;
-                  height: 56px;
-                  background-color: #892cdc0d;
-                  border-radius: 8px;
-                  font-size: 24px;
-                  font-weight: 600;
-                  color: #333333;
-                  font-family: Inter, Arial, sans-serif;
-                  text-align: center;
-                  vertical-align: middle;
-                  mso-line-height-rule: exactly;
-                  line-height: 56px;
-                "
-              >
-                {5}
-              </td>
-            </tr>
-          </mj-table>
+      <mj-section padding="20px">
+        <mj-column >
+          <mj-text
+            font-size="28px"
+            font-weight="bold"
+            font-family="monospace"
+            letter-spacing="12px"
+            align="center"
+            color="#333333"
+            >{{123456}}</mj-text
+          >
         </mj-column>
       </mj-section>
+
 
       <!-- Expiry Message -->
       <mj-section padding="0 25px 30px 25px">

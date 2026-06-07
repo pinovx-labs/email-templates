@@ -74,141 +74,22 @@
       <!-- End greeting/intro section -->
 
       <!-- start otp section -->
-      <mj-section padding="20px 25px" background-color="#ffffff">
-        <mj-column>
-          <mj-table align="center" cellpadding="0" cellspacing="0">
-            <tr>
-              <!-- OTP 3 -->
-              <td
-                valign="middle"
-                align="center"
-                style="
-                  width: 56px;
-                  height: 55px;
-                  background-color: #892cdc0d;
-                  border-radius: 5px;
-                  font-size: 24px;
-                  font-weight: 600;
-                  font-family: 'Inter', Arial, sans-serif;
-                  text-align: center;
-                  vertical-align: middle;
-                  line-height: 55px;
-                "
-              >
-                3
-              </td>
+      
+      
 
-              <td width="5px"></td>
 
-              <!-- OTP 9 -->
-              <td
-                valign="middle"
-                align="center"
-                style="
-                  width: 56px;
-                  height: 55px;
-                  background-color: #892cdc0d;
-                  border-radius: 5px;
-                  font-size: 24px;
-                  font-weight: 600;
-                  font-family: 'Inter', Arial, sans-serif;
-                  text-align: center;
-                  vertical-align: middle;
-                  line-height: 55px;
-                "
-              >
-                9
-              </td>
-
-              <td width="5px"></td>
-
-              <!-- OTP 7 -->
-              <td
-                valign="middle"
-                align="center"
-                style="
-                  width: 56px;
-                  height: 55px;
-                  background-color: #892cdc0d;
-                  border-radius: 5px;
-                  font-size: 24px;
-                  font-weight: 600;
-                  font-family: 'Inter', Arial, sans-serif;
-                  text-align: center;
-                  vertical-align: middle;
-                  line-height: 55px;
-                "
-              >
-                7
-              </td>
-
-              <td width="5px"></td>
-
-              <!-- OTP 1 -->
-              <td
-                valign="middle"
-                align="center"
-                style="
-                  width: 56px;
-                  height: 55px;
-                  background-color: #892cdc0d;
-                  border-radius: 5px;
-                  font-size: 24px;
-                  font-weight: 600;
-                  font-family: 'Inter', Arial, sans-serif;
-                  text-align: center;
-                  vertical-align: middle;
-                  line-height: 55px;
-                "
-              >
-                1
-              </td>
-
-              <td width="5px"></td>
-
-              <!-- OTP 4 -->
-              <td
-                valign="middle"
-                align="center"
-                style="
-                  width: 56px;
-                  height: 55px;
-                  background-color: #892cdc0d;
-                  border-radius: 5px;
-                  font-size: 24px;
-                  font-weight: 600;
-                  font-family: 'Inter', Arial, sans-serif;
-                  text-align: center;
-                  vertical-align: middle;
-                  line-height: 55px;
-                "
-              >
-                4
-              </td>
-
-              <td width="5px"></td>
-
-              <!-- OTP 6 -->
-              <td
-                valign="middle"
-                align="center"
-                style="
-                  width: 56px;
-                  height: 55px;
-                  background-color: #892cdc0d;
-                  border-radius: 5px;
-                  font-size: 24px;
-                  font-weight: 600;
-                  font-family: 'Inter', Arial, sans-serif;
-                  text-align: center;
-                  vertical-align: middle;
-                  line-height: 55px;
-                "
-              >
-                6
-              </td>
-            </tr>
-          </mj-table>
+      
+      <mj-section padding="20px">
+        <mj-column >
+          <mj-text
+            font-size="28px"
+            font-weight="bold"
+            font-family="monospace"
+            letter-spacing="12px"
+            align="center"
+            color="#333333"
+            >{{123456}}</mj-text
+          >
         </mj-column>
       </mj-section>
 

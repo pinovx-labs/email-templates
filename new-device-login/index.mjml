@@ -1,0 +1,324 @@
+<mjml>
+  <mj-head>
+    <mj-title>Did you login using a new device?</mj-title>
+    <mj-preview
+      >A new login has been detected on your PinovX account. Please review the
+      details.</mj-preview
+    >
+
+    <mj-breakpoint width="460px" />
+    <mj-font
+      name="Barlow"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    />
+
+    <mj-style inline="inline">
+      body { font-family: 'Barlow', Arial, sans-serif; -webkit-font-smoothing:
+      antialiased; } .footer-link { color: #00b050 !important; text-decoration:
+      none !important; font-size: 11px !important; font-weight: 500 !important;
+      } .app-badge img { max-width: 135px !important; height: auto !important; }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#f4f4f4">
+    <mj-wrapper padding="40px 20px 20px 20px">
+      <!-- Top Brand Banner Header Image Asset -->
+      <mj-section padding="0 0 30px 0" background-color="transparent">
+        <mj-column width="100%">
+          <mj-image
+            src="https://res.cloudinary.com/danxk4ua5/image/upload/v1761858920/Banner_image_1_nhvzan.png"
+            alt="PinovX Logo"
+            align="center"
+            padding="0"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Main Notification Headline -->
+      <mj-section padding="0 0 24px 0" background-color="transparent">
+        <mj-column width="100%">
+          <mj-text
+            align="center"
+            font-family="'Barlow', Arial, sans-serif"
+            font-size="26px"
+            color="#111111"
+            line-height="34px"
+            padding="0"
+            font-weight="400"
+          >
+            Did you login using a new device?
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- CARD 1: Security Warning Log Content -->
+      <mj-section
+        background-color="#ffffff"
+        padding="0 0 40px 0"
+        border-radius="4px"
+      >
+        <!-- Main Account Security Notice Body -->
+        <mj-column width="100%" padding="25px 40px 0 40px">
+          <mj-text
+            font-family="'Barlow', Arial, sans-serif"
+            font-size="16px"
+            font-weight="700"
+            color="#111111"
+            padding="0 0 12px 0"
+          >
+            Hi {{John Doe}},
+          </mj-text>
+
+          <mj-text
+            font-family="'Barlow', Arial, sans-serif"
+            font-size="13px"
+            color="#666666"
+            line-height="18px"
+            padding="0 0 20px 0"
+          >
+            There has been a login to your PinovX account from a new device.
+          </mj-text>
+
+          <!-- Core Log Device Information Panel Block -->
+          <mj-text
+            font-family="'Barlow', Arial, sans-serif"
+            font-size="13px"
+            color="#555555"
+            line-height="22px"
+            padding="0 0 24px 0"
+          >
+            <span style="font-weight: 700; color: #222222"
+              >Device Information:</span
+            >
+            <ul style="margin: 4px 0 0 0; padding-left: 20px; color: #555555">
+              <li>
+                <span style="font-weight: 600; color: #333333"
+                  >Device Model:</span
+                >
+                CPH2629
+              </li>
+              <li>
+                <span style="font-weight: 600; color: #333333"
+                  >Operating System:</span
+                >
+                Android
+              </li>
+              <li>
+                <span style="font-weight: 600; color: #333333"
+                  >IP Address:</span
+                >
+                ::ffff:100.64.0.53
+              </li>
+              <li>
+                <span style="font-weight: 600; color: #333333">Time:</span>
+                2026-05-07T15:11:36.069Z
+              </li>
+            </ul>
+          </mj-text>
+
+          <mj-text
+            font-family="'Barlow', Arial, sans-serif"
+            font-size="13px"
+            color="#666666"
+            line-height="19px"
+            padding="0 0 30px 0"
+          >
+            If this was you, you can safely ignore this email.<br />
+            If you do not recognize this activity, please click the button below
+            to secure your account.
+          </mj-text>
+
+          <!-- Risk Action CTA Trigger Button -->
+          <mj-button
+            href="mailto:support@pinovx.com"
+            background-color="#2e6f2b"
+            color="#ffffff"
+            font-family="'Barlow', Arial, sans-serif"
+            font-size="12px"
+            font-weight="600"
+            border-radius="50px"
+            inner-padding="12px 28px"
+            align="left"
+            padding="0"
+          >
+            Report Suspicious Activity
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Spacing Block Separator -->
+      <mj-section padding="10px 0" background-color="transparent"></mj-section>
+
+      <!-- CARD 2: App Download Badge Promo Banner -->
+      <mj-section
+        background-color="#ffffff"
+        padding="40px 40px"
+        border-radius="4px"
+      >
+        <mj-column width="100%">
+          <!-- Promo Section Header -->
+          <mj-text
+            align="center"
+            font-family="'Barlow', Arial, sans-serif"
+            font-size="20px"
+            font-weight="700"
+            color="#00c853"
+            line-height="26px"
+            padding="0 0 12px 0"
+          >
+            Get PinovX today!
+          </mj-text>
+
+          <!-- Promo Content Subtext Description -->
+          <mj-text
+            align="center"
+            font-family="'Barlow', Arial, sans-serif"
+            font-size="14px"
+            color="#555555"
+            line-height="20px"
+            padding="0 0 24px 0"
+          >
+            Experience the full power of PinovX with our Mobile App and Web OTC
+            Platform.
+          </mj-text>
+        </mj-column>
+
+        <!-- Side-by-Side Responsive Store Badges Container row grid wrapper -->
+        <mj-column width="50%" padding="0">
+          <mj-image
+            src="https://res.cloudinary.com/danxk4ua5/image/upload/v1782470727/Auto_Layout_Horizontal_1_ioc0xm.png"
+            href="https://play.google.com"
+            alt="Get it on Google Play"
+            width="135px"
+            align="right"
+            css-class="app-badge"
+            padding="4px 6px"
+          />
+        </mj-column>
+        <mj-column width="50%" padding="0">
+          <mj-image
+            src="https://res.cloudinary.com/danxk4ua5/image/upload/v1782470741/Auto_Layout_Horizontal_2_rkx7cx.png"
+            href="https://apple.com"
+            alt="Download on the App Store"
+            width="135px"
+            align="left"
+            css-class="app-badge"
+            padding="4px 6px"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Master Universal Brand Footer Session Area -->
+      <mj-section background-color="transparent" padding="40px 20px 20px 20px">
+        <mj-column>
+          <mj-image
+            src="https://res.cloudinary.com/danxk4ua5/image/upload/v1782467938/Auto_Layout_Horizontal_mrqzqc.png"
+            alt="Pinovx"
+            width="160px"
+            padding-bottom="20px"
+          />
+
+          <!-- Custom Embedded Center Grid Icons Row -->
+          <mj-text align="center" padding="0px 0px 20px 0px">
+            <table
+              align="center"
+              border="0"
+              cellpadding="0"
+              cellspacing="0"
+              style="margin: 0 auto"
+            >
+              <tr>
+                <td style="padding: 0 8px">
+                  <a
+                    href="https://www.facebook.com/wearepinovx"
+                    target="_blank"
+                  >
+                    <img
+                      src="https://res.cloudinary.com/danxk4ua5/image/upload/v1782467656/Group_vkcu00.png"
+                      width="35px"
+                      height="35px"
+                      style="display: block; border: 0"
+                      alt="Facebook"
+                    />
+                  </a>
+                </td>
+                <td style="padding: 0 8px">
+                  <a
+                    href="https://www.instagram.com/wearepinovx/"
+                    target="_blank"
+                  >
+                    <img
+                      src="https://res.cloudinary.com/danxk4ua5/image/upload/v1782467675/Group_1_vykvb8.png"
+                      width="35px"
+                      height="35px"
+                      style="display: block; border: 0"
+                      alt="Instagram"
+                    />
+                  </a>
+                </td>
+                <td style="padding: 0 8px">
+                  <a href="https://x.com/wearepinovx" target="_blank">
+                    <img
+                      src="https://res.cloudinary.com/danxk4ua5/image/upload/v1782467675/Group_2_vbmjxr.png"
+                      width="35px"
+                      height="35px"
+                      style="display: block; border: 0"
+                      alt="X"
+                    />
+                  </a>
+                </td>
+                <td style="padding: 0 8px">
+                  <a href="https://linkedin.com" target="_blank">
+                    <img
+                      src="https://res.cloudinary.com/danxk4ua5/image/upload/v1782467674/Group_3_ld9lal.png"
+                      width="35px"
+                      height="35px"
+                      style="display: block; border: 0"
+                      alt="LinkedIn"
+                    />
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </mj-text>
+
+          <mj-text
+            align="center"
+            font-family="'Barlow', Arial, sans-serif"
+            font-size="13px"
+            color="#333333"
+            line-height="20px"
+            padding-bottom="14px"
+          >
+            Copyright &copy; {{2026}} Pinov Inc. All rights reserved.
+          </mj-text>
+
+          <mj-text
+            align="center"
+            font-family="'Barlow', Arial, sans-serif"
+            padding="0"
+          >
+            <a
+              href="https://pinovx.com/privacy-policy"
+              class="footer-link"
+              style="margin: 0 8px"
+              >Privacy Policy</a
+            >
+            <a
+              href="https://pinovx.com/terms-of-use"
+              class="footer-link"
+              style="margin: 0 8px"
+              >Terms of Service</a
+            >
+            <a
+              href="https://pinovx.com"
+              class="footer-link"
+              style="margin: 0 8px"
+              >Help Center</a
+            >
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

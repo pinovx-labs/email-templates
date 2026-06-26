@@ -1,0 +1,208 @@
+<mjml>
+  <mj-head>
+    <mj-title>Welcome to PinovX</mj-title>
+    <mj-preview>We're thrilled to have you on board. Your account is now ready.</mj-preview>
+
+    <mj-breakpoint width="460px" />
+    <mj-font name="Barlow" href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" />
+    
+    <mj-style inline="inline">
+      body { 
+        font-family: 'Barlow', Arial, sans-serif; 
+        -webkit-font-smoothing: antialiased; 
+      }
+      .footer-link { 
+        color: #00b050 !important; 
+        text-decoration: none !important; 
+        font-size: 11px !important; 
+        font-weight: 500 !important; 
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#f4f4f4">
+    <mj-wrapper padding="40px 20px 20px 20px">
+      
+      <!-- Top Header Brand Icon -->
+      <mj-section padding="0 0 30px 0" background-color="transparent">
+        <mj-column>
+          <mj-image
+            src="https://res.cloudinary.com/danxk4ua5/image/upload/v1782468723/Image_ey4moj.png"
+            alt="PinovX Logo"
+            width="55px"
+            align="center"
+            padding="0"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Main Welcome Headline -->
+      <mj-section padding="0 0 24px 0" background-color="transparent">
+        <mj-column>
+          <mj-text
+            align="center"
+            font-family="'Barlow', Arial, sans-serif"
+            font-size="26px"
+            color="#111111"
+            line-height="34px"
+            padding="0"
+            font-weight="400"
+          >
+            Hi <span style="font-weight: 700">{{John Doe}}</span>, welcome to PinovX!
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- CARD 1: Alternating Features Matrix -->
+      <mj-section background-color="#ffffff" padding="40px 30px" border-radius="4px">
+        <mj-column width="100%">
+          <!-- Welcome Subtext Description -->
+          <mj-text
+            align="center"
+            font-family="'Barlow', Arial, sans-serif"
+            font-size="13px"
+            color="#666666"
+            line-height="20px"
+            padding="0 20px 40px 20px"
+          >
+            We're thrilled to have you on board. Your account is now ready, giving you secure access to buy, sell, transfer, and manage digital assets with ease. Explore the features below and discover how PinovX makes every transaction simple, seamless, and secure.
+          </mj-text>
+        </mj-column>
+
+        <!-- Feature 1: Text Left, Image Right -->
+        <mj-column width="62%" vertical-align="middle" padding-right="10px">
+          <mj-text font-family="'Barlow', Arial, sans-serif" font-size="14px" font-weight="700" color="#333333" padding="0 0 8px 0">
+            Buy, Sell, and Manage Digital Assets with Ease
+          </mj-text>
+          <mj-text font-family="'Barlow', Arial, sans-serif" font-size="13px" color="#666666" line-height="18px" padding="0 0 24px 0">
+            Access a seamless platform designed <span style="font-style: italic;">to help you</span> buy, sell, store, and manage your digital assets securely. Stay in control of your transactions and portfolio anytime, from anywhere.
+          </mj-text>
+        </mj-column>
+        <mj-column width="38%" vertical-align="middle">
+          <mj-image src="https://res.cloudinary.com/danxk4ua5/image/upload/v1782474353/Image_2_hjclpf.png" alt="Digital Assets" width="130px" align="center" padding="0 0 24px 0" />
+        </mj-column>
+
+        <!-- Feature 2: Image Left, Text Right (Using MJML's natural source order processing for mobile stacking consistency) -->
+        <mj-column width="38%" vertical-align="middle">
+          <mj-image src="https://res.cloudinary.com/danxk4ua5/image/upload/v1782474332/Image_3_kwwezp.png" alt="OTC Service" width="130px" align="center" padding="0 0 24px 0" />
+        </mj-column>
+        <mj-column width="62%" vertical-align="middle" padding-left="10px">
+          <mj-text font-family="'Barlow', Arial, sans-serif" font-size="14px" font-weight="700" color="#333333" padding="0 0 8px 0">
+            We have made room for the big shots!
+          </mj-text>
+          <mj-text font-family="'Barlow', Arial, sans-serif" font-size="13px" color="#666666" line-height="18px" padding="0 0 24px 0">
+            Send and receive funds effortlessly while enjoying access to our OTC service for larger transactions. Benefit from competitive rates, enhanced flexibility, and a smoother transaction experience tailored to your needs.
+          </mj-text>
+        </mj-column>
+
+        <!-- Feature 3: Text Left, Image Right -->
+        <mj-column width="62%" vertical-align="middle" padding-right="10px">
+          <mj-text font-family="'Barlow', Arial, sans-serif" font-size="14px" font-weight="700" color="#333333" padding="0 0 8px 0">
+            One Account. Complete Access.
+          </mj-text>
+          <mj-text font-family="'Barlow', Arial, sans-serif" font-size="13px" color="#666666" line-height="18px" padding="0">
+            Use a single email address and password to access both the PinovX Mobile App and OTC Web Platform. Enjoy a unified PinovX experience with a single set of login credentials.
+          </mj-text>
+        </mj-column>
+        <mj-column width="38%" vertical-align="middle">
+          <mj-image src="https://res.cloudinary.com/danxk4ua5/image/upload/v1782474354/Image_4_eeuifl.png" alt="Complete Access" width="130px" align="center" padding="0" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Spacing Separation -->
+      <mj-section padding="10px 0" background-color="transparent"></mj-section>
+
+      <!-- CARD 2: App Promo App showcase banner -->
+      <mj-section background-color="#ffffff" padding="35px 30px" border-radius="4px">
+        <mj-column width="55%" vertical-align="middle">
+          <mj-text font-family="'Barlow', Arial, sans-serif" font-size="22px" font-weight="700" color="#00c853" padding="0 0 12px 0">
+            We are PinovX.
+          </mj-text>
+          <mj-text font-family="'Barlow', Arial, sans-serif" font-size="12px" color="#555555" line-height="18px" padding="0 0 20px 0">
+            Experience the full power of PinovX with our Mobile App and Web OTC Platform. Use the same email address and password to log in across both platforms, giving you seamless access to your account, trading tools, and OTC services from anywhere.
+          </mj-text>
+          
+          <!-- Download badges stacked/inline grid wrapper inside text column -->
+          <mj-text padding="0" align="left">
+            <table border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td style="padding-right: 8px; padding-bottom: 10px;">
+                  <a href="https://play.google.com" target="_blank">
+                    <img src="https://res.cloudinary.com/danxk4ua5/image/upload/v1782470727/Auto_Layout_Horizontal_1_ioc0xm.png" width="115" style="display: block; border:0;" alt="Get it on Google Play" />
+                  </a>
+                </td>
+                <td style="padding-bottom: 10px;">
+                  <a href="https://apple.com" target="_blank">
+                    <img src="https://res.cloudinary.com/danxk4ua5/image/upload/v1782470741/Auto_Layout_Horizontal_2_rkx7cx.png" width="115" style="display: block; border:0;" alt="Download on the App Store" />
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="45%" vertical-align="middle">
+          <mj-image src="https://res.cloudinary.com/danxk4ua5/image/upload/v1782474352/4_23424_cqmssn.png" alt="PinovX App" width="190px" align="center" padding="10px 0 0 0" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Master Universal Brand Footer -->
+      <mj-section background-color="transparent" padding="40px 20px 20px 20px">
+        <mj-column>
+          <mj-image
+            src="https://res.cloudinary.com/danxk4ua5/image/upload/v1782467938/Auto_Layout_Horizontal_mrqzqc.png"
+            alt="Pinovx"
+            width="160px"
+            padding-bottom="20px"
+          />
+
+          <!-- Social Layout Table Matrix -->
+          <mj-text align="center" padding="0px 0px 20px 0px">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" style="margin: 0 auto">
+              <tr>
+                <td style="padding: 0 8px">
+                  <a href="https://www.facebook.com/wearepinovx" target="_blank">
+                    <img src="https://res.cloudinary.com/danxk4ua5/image/upload/v1782467656/Group_vkcu00.png" width="35px" height="35px" style="display: block; border: 0" alt="Facebook" />
+                  </a>
+                </td>
+                <td style="padding: 0 8px">
+                  <a href="https://www.instagram.com/wearepinovx/" target="_blank">
+                    <img src="https://res.cloudinary.com/danxk4ua5/image/upload/v1782467675/Group_1_vykvb8.png" width="35px" height="35px" style="display: block; border: 0" alt="Instagram" />
+                  </a>
+                </td>
+                <td style="padding: 0 8px">
+                  <a href="https://x.com/wearepinovx" target="_blank">
+                    <img src="https://res.cloudinary.com/danxk4ua5/image/upload/v1782467675/Group_2_vbmjxr.png" width="35px" height="35px" style="display: block; border: 0" alt="X" />
+                  </a>
+                </td>
+                <td style="padding: 0 8px">
+                  <a href="https://linkedin.com" target="_blank">
+                    <img src="https://res.cloudinary.com/danxk4ua5/image/upload/v1782467674/Group_3_ld9lal.png" width="35px" height="35px" style="display: block; border: 0" alt="LinkedIn" />
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </mj-text>
+
+          <mj-text
+            align="center"
+            font-family="'Barlow', Arial, sans-serif"
+            font-size="13px"
+            color="#333333"
+            line-height="20px"
+            padding-bottom="14px"
+          >
+            Copyright &copy; {{2026}} Pinov Inc. All rights reserved.
+          </mj-text>
+
+          <mj-text align="center" font-family="'Barlow', Arial, sans-serif" padding="0">
+            <a href="https://pinovx.com/privacy-policy" class="footer-link" style="margin: 0 8px">Privacy Policy</a>
+            <a href="https://pinovx.com/terms-of-use" class="footer-link" style="margin: 0 8px">Terms of Service</a>
+            <a href="https://pinovx.com" class="footer-link" style="margin: 0 8px">Help Center</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+  </mj-body>
+</mjml>

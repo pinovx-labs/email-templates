@@ -1,0 +1,220 @@
+<mjml>
+  <mj-head>
+    <mj-title>Liquidity Alert - Action Required</mj-title>
+    <mj-preview
+      >A transfer could not proceed due to insufficient liquidity.</mj-preview
+    >
+    <mj-breakpoint width="480px" />
+
+    <!-- Google Fonts -->
+    <mj-font
+      name="Overpass"
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;700;800;900&family=Overpass+Mono:wght@400;600;700&display=swap"
+    />
+
+    <mj-style inline="inline">
+      .table-container { width: 100%; border-collapse: collapse; font-family:
+      'Overpass Mono', monospace; font-size: 13px; } .table-row { border-bottom:
+      1px solid #EFEFEF; } .table-cell-label { background-color: gray; color:
+      #222222; padding: 16px 20px; width: 38%; font-weight: 600; }
+      .table-cell-value { background-color: #FFFFFF; color: #111111; padding:
+      16px 20px; width: 62%; font-weight: 700; } .pill-badge { background-color:
+      rgba(255, 255, 255, 0.2); color: #FFFFFF; padding: 8px 14px;
+      border-radius: 20px; font-size: 11px; font-family: 'Overpass Mono',
+      monospace; display: inline-block; } .red-alert-box { background-color:
+      #C31313; border-radius: 2px; padding: 16px 20px; } .yellow-alert-box {
+      background-color: rgba(242, 209, 19, 0.15); border: 1px solid rgba(242,
+      209, 19, 0.4); border-radius: 2px; padding: 16px 20px; }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#FFFFFF" width="600px">
+    <!-- RED HEADER SECTION -->
+    <mj-section background-color="#C31313" padding="30px 30px 35px 30px">
+      <!-- Top Left Logo Icon -->
+      <mj-column width="100%">
+        <mj-image
+          src="https://res.cloudinary.com/danxk4ua5/image/upload/v1782468723/Image_ey4moj.png"
+          alt="Logo"
+          width="28px"
+          align="left"
+          padding="0 0 20px 0"
+        />
+      </mj-column>
+
+      <!-- Subtitle Description -->
+      <mj-column width="100%">
+        <mj-text
+          font-family="'Overpass', Arial, sans-serif"
+          font-size="22px"
+          font-weight="900"
+          color="#FFFFFF"
+          line-height="28px"
+          letter-spacing="0.5px"
+          padding="0 0 16px 0"
+        >
+          ⚠️ LIQUIDITY ALERT - ACTION REQUIRED
+        </mj-text>
+      </mj-column>
+
+      <!-- Subtitle Description -->
+      <mj-column width="100%">
+        <mj-text
+          font-family="'Overpass Mono', monospace"
+          font-size="12px"
+          color="#FFFFFF"
+          line-height="18px"
+          padding="0 0 18px 0"
+        >
+          A transfer could not proceed due to insufficient liquidity
+        </mj-text>
+
+        <!-- Category Pill Badge -->
+        <mj-text padding="0">
+          <span class="pill-badge">Crypto Transaction</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- BODY CONTENT SECTION -->
+    <mj-section background-color="#FFFFFF" padding="35px 30px 20px 30px">
+      <mj-column width="100%">
+        <!-- Greeting & Subtext -->
+        <mj-text
+          font-family="'Overpass Mono', monospace"
+          font-size="13px"
+          color="#000000"
+          line-height="20px"
+          padding="0 0 12px 0"
+        >
+          Hi Admin,
+        </mj-text>
+
+        <mj-text
+          font-family="'Overpass Mono', monospace"
+          font-size="13px"
+          color="#000000"
+          line-height="20px"
+          padding="0 0 28px 0"
+        >
+          A <span style="font-weight: 700">{{...}}</span> could not be processed
+          due to <span style="font-weight: 700">insufficient liquidity</span> on
+          the <span style="font-weight: 700">{{...}}</span> network.
+        </mj-text>
+
+        <!-- DATA TABLE -->
+        <mj-table padding="0 0 30px 0">
+          <table class="table-container">
+            <tr class="table-row">
+              <td class="table-cell-label">Transaction Type</td>
+              <td class="table-cell-value">Crypto</td>
+            </tr>
+            <tr class="table-row">
+              <td class="table-cell-label">Network</td>
+              <td class="table-cell-value">TRON</td>
+            </tr>
+            <tr class="table-row">
+              <td class="table-cell-label">Asset/Currency</td>
+              <td class="table-cell-value">USDT</td>
+            </tr>
+            <tr class="table-row">
+              <td class="table-cell-label">Required Amount</td>
+              <td class="table-cell-value">421.17024900000001 USDT</td>
+            </tr>
+            <tr class="table-row">
+              <td class="table-cell-label">Available Balance</td>
+              <td class="table-cell-value">3932.068051 USDT</td>
+            </tr>
+            <tr class="table-row">
+              <td class="table-cell-label">Timestamps (UTC)</td>
+              <td class="table-cell-value">2026-07-18T07:32:05.101Z</td>
+            </tr>
+            <tr class="table-row">
+              <td class="table-cell-label">Environment</td>
+              <td class="table-cell-value">staging</td>
+            </tr>
+          </table>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <!-- CALLOUT BOXES & FOOTER NOTE -->
+    <mj-section background-color="#FFFFFF" padding="0 30px 40px 30px">
+      <mj-column width="100%">
+        <!-- Red Warning Box -->
+        <mj-text padding="0 0 16px 0">
+          <div class="red-alert-box">
+            <p
+              style="
+                margin: 0;
+                font-family: 'Overpass Mono', monospace;
+                font-size: 12px;
+                color: #ffffff;
+                line-height: 18px;
+                font-weight: 600;
+              "
+            >
+              The system has queued this transfer and will continue to retry
+              until sufficient liquidity is available
+            </p>
+          </div>
+        </mj-text>
+
+        <!-- Yellow Action Box -->
+        <mj-text padding="0 0 30px 0">
+          <div class="yellow-alert-box">
+            <p
+              style="
+                margin: 0 0 4px 0;
+                font-family: 'Overpass Mono', monospace;
+                font-size: 12px;
+                color: #c69417;
+                font-weight: 700;
+              "
+            >
+              Action Required
+            </p>
+            <p
+              style="
+                margin: 0;
+                font-family: 'Overpass Mono', monospace;
+                font-size: 12px;
+                color: #333333;
+                line-height: 18px;
+              "
+            >
+              Please top up the {{...}} with {{...}} to resume processing.
+            </p>
+          </div>
+        </mj-text>
+
+        <!-- Red Cooldown Footer Disclaimer -->
+        <mj-text
+          font-family="'Overpass Mono', monospace"
+          font-size="12px"
+          color="#FF2C2C"
+          line-height="18px"
+          padding="0"
+        >
+          This alert has a 1-hour cooldown. You will not receive duplicate
+          notifications within that window
+        </mj-text>
+      </mj-column>
+    </mj-section>
+<!-- GREEN SYSTEM FOOTER BAR -->
+    <mj-section background-color="#189913" padding="12px 20px">
+      <mj-column width="100%">
+        <mj-text
+          align="center"
+          font-family="'Overpass Mono', monospace"
+          font-size="11px"
+          color="#ffffff"
+          padding="0"
+          line-height="16px"
+        >
+          © {{2026}} Pinov Internal System - Do not reply to this email
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
